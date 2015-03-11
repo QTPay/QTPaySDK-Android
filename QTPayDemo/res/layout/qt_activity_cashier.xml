@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/qtWhiteColor" >
+
+            <TextView
+                android:id="@+id/back_qt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/qtTextBlue"
+                android:textSize="@dimen/qt_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="收银台"
+                android:textColor="@color/qtBondBlack"
+                android:textSize="@dimen/qt_title_size" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/qtGrayBackgroundColor" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/qtGrayBackgroundColor" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <!-- 订单信息 -->
+
+                <TextView
+                    style="@style/QTTitleText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="17dp"
+                    android:text="订单信息" />
+
+                <!-- 订单支付 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_container_qt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/qtWhiteColor"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="4dp" />
+
+                    <!-- 商品信息 -->
+
+                    <LinearLayout
+                        android:id="@+id/ll_goods_qt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical" >
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="4dp" />
+
+                            <TextView
+                                style="@style/QTHeadBondBlackText"
+                                android:paddingLeft="20dp"
+                                android:text="商品 " />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:id="@+id/ll_goods_name_container_qt"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_goods_count_container_qt"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_goods_amount_container_qt"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 附加信息 -->
+
+                    <LinearLayout
+                        android:id="@+id/ll_extra_container_qt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:id="@+id/ll_extra_title_container_qt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_extra_info_container_qt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 总金额 -->
+
+                    <LinearLayout
+                        android:id="@+id/ll_order_info_qt"
+                        style="@style/ViewVisible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal"
+                        android:paddingBottom="4dp" >
+
+                        <TextView
+                            style="@style/QTHeadBondBlackText"
+                            android:layout_width="0dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="20dp"
+                            android:text="总额 " />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:orientation="horizontal"
+                            android:paddingTop="4dp" >
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6" />
+
+                            <TextView
+                                android:id="@+id/tv_total_amt_qt"
+                                style="@style/QTHeadBondBlackText"
+                                android:layout_width="0dp"
+                                android:layout_weight="2" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="4dp" />
+                </LinearLayout>
+
+                <!-- 余额充值 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_recharge_container_qt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/qtWhiteColor"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <!-- 充值金额 -->
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical" >
+
+                        <TextView
+                            style="@style/QTHeadBondBlackText"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:padding="10dp"
+                            android:text="充值金额" />
+
+                        <TextView
+                            android:id="@+id/tv_recharge_real_amt_qt"
+                            style="@style/QTCommonText"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:text="" />
+                    </RelativeLayout>
+
+                    <!-- 奖励金额 -->
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical" >
+
+                        <TextView
+                            style="@style/QTHeadBondBlackText"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:padding="10dp"
+                            android:text="奖励金额" />
+
+                        <TextView
+                            android:id="@+id/tv_recharge_award_amt_qt"
+                            style="@style/QTCommonText"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:text="" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!-- 优惠券 -->
+
+                <TextView
+                    style="@style/QTTitleText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="17dp"
+                    android:text="账户信息" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/qtWhiteColor"
+                    android:orientation="vertical" >
+
+                    <!-- 优惠券 -->
+
+                    <LinearLayout
+                        android:id="@+id/ll_coupon_qt"
+                        style="@style/ViewVisible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/ll_my_account_qt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="44dp"
+                            android:background="@drawable/qt_selector"
+                            android:gravity="center_vertical" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="20dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/qt_coupon_icon" />
+
+                                <TextView
+                                    style="@style/QTBondBlackText"
+                                    android:layout_marginLeft="20dp"
+                                    android:text="优惠券" />
+
+                                <TextView
+                                    android:id="@+id/tv_has_coupon_qt"
+                                    style="@style/QTSpecialText"
+                                    android:layout_marginLeft="20dp"
+                                    android:visibility="visible" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center_vertical" >
+
+                                <TextView
+                                    android:id="@+id/tv_coupon_amt_qt"
+                                    style="@style/QTCommonText"
+                                    android:layout_marginRight="20dp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="20dp"
+                                    android:src="@drawable/qt_icon_close" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@color/qtGrayBackgroundColor" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ll_balance_qt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/qtWhiteColor" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center_vertical" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/qt_balance_icon" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                style="@style/QTBondBlackText"
+                                android:layout_marginLeft="20dp"
+                                android:text="余    额" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_balance_qt"
+                                style="@style/QTCommonText"
+                                android:layout_marginRight="20dp" />
+
+                            <ImageView
+                                android:id="@+id/iv_use_balance_qt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:scaleType="center"
+                                android:src="@drawable/qt_tiick"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_point_qt"
+                        style="@style/ViewVisible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/qtWhiteColor"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            style="@style/QTHeadBondBlackText"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="积    分" />
+
+                        <TextView
+                            android:id="@+id/tv_coupon_point_qt"
+                            style="@style/QTCommonText"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="25dp"
+                            android:layout_toRightOf="@+id/textView2"
+                            android:text="- -" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!-- 支付方式 -->
+
+                <TextView
+                    style="@style/QTTitleText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="17dp"
+                    android:text="支付方式" />
+
+                <ListView
+                    android:id="@+id/ll_payment_type_qt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/qtWhiteColor"
+                    android:divider="#00000000"
+                    android:dividerHeight="1dip"
+                    android:fadingEdge="none"
+                    android:headerDividersEnabled="false"
+                    android:listSelector="#00000000"
+                    android:scrollbars="none" >
+                </ListView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="由钱台提供支付接入"
+                    android:textColor="@color/qtLightGray"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="62dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/qtGrayBackgroundColor"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/QTBondBlackText"
+                android:text="待支付 : " />
+
+            <TextView
+                android:id="@+id/tv_need_pay_amt_qt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- -"
+                android:textColor="@color/qtBondBlack"
+                android:textSize="@dimen/qt_huge" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_pay_qt"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/qt_text_btn_bg"
+            android:gravity="center"
+            android:text="确认支付"
+            android:textColor="@color/qtTextBlue" />
+    </RelativeLayout>
+
+</RelativeLayout>

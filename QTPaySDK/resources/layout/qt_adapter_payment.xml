@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 父布局要为LinearyLayout -->
+
+    <LinearLayout
+        android:id="@+id/ll_payment_container_qt"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/logo_qt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/qt_alipay_logo" />
+
+            <TextView
+                android:id="@+id/payment_name_qt"
+                style="@style/QTBondBlackText"
+                android:layout_marginLeft="15dp"
+                android:text="支付宝支付" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cb_pay_qt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:scaleType="center"
+            android:src="@drawable/qt_tiick" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider_qt"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/qtGrayBackgroundColor" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="regBackGround">#d2d6d7</color>
+    <color name="white">#f6f4f1</color>
+    <color name="whiteColorBg">#f6f4f1</color>
+    <color name="dark_gray">#727378</color>
+    <color name="light_gray">#cfcfcf</color>
+    <color name="blue">#00a8e9</color>
+    <color name="blue_30">#5500a8e9</color>
+    <color name="blue_press">#0098d3</color>
+    <color name="gray">#aaadb5</color>
+    <color name="textblack">#3f4245</color>
+    <color name="darkgray">#676d72</color>
+    <color name="textblue">#34aadc</color>
+    <color name="darkgray1">#8a8a8a</color>
+
+</resources>
