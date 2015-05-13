@@ -9,43 +9,46 @@
 
 ## 2.集成准备   ##
 
-### 2.1 复制资源文件
+
+### 2.1 Eclipse
+
+#### 2.1.1 复制资源文件
 将resources文件夹中的所有文件夹复制到已有工程文件夹中。
 
 ![](http://i.imgur.com/wVMKQeM.png)
 
 
-### 2.2 安装SDK依赖包 ###
+#### 2.1.2 安装SDK依赖包 ###
 根据需求，选择对应的依赖包复制到libs目录下
 
-#### 2.2.1 支付宝钱包依赖包 ####
+##### 2.1.2.1 支付宝钱包依赖包 ####
 
 非必须，可根据业务需求添加。
 
 路径：\libs\channel_jar\alipay\
 
-#### 2.2.2 微信支付依赖包 ####
+##### 2.1.2.2 微信支付依赖包 ####
 
 非必须，可根据业务需求添加。
 
 路径：\libs\channel_jar\wechat\
 
-#### 2.2.3 钱台SDK依赖包 ####
+##### 2.1.2.3 钱台SDK依赖包 ####
 
 **必须添加，本依赖包是支付核心。**
 
 路径：\libs\qtsdk_jar\
 
-#### 2.2.4 volley网络库依赖包 ####
+##### 2.1.2.4 volley网络库依赖包 ####
 
 必须，若已经有相同文件，请使用压缩包中提供的依赖包。
 
 路径：\libs\dependence_jar\
 
-#### 2.2.5 集成效果 ####
+##### 2.1.2.5 集成效果 ####
 ![](http://i.imgur.com/Hm0quH3.png)
 
-### 2.3 文件配置 ###
+#### 2.1.3 文件配置 ###
 
 在AndroidManifest文件中加入如下配置：
 
@@ -75,7 +78,30 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
 ```
+### 2.2 Android Studio
 
+详情请见demo
+
+
+## 2.2.1 添加资源文件至工程中
+
+
+## 2.2.2 依赖文件添加如下文件
+
+```groove
+dependencies {
+    compile 'com.android.support:cardview-v7:21.0.0'
+    compile 'com.android.support:support-v4:22.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/qtsdk.jar')
+    compile files('libs/alipaysdk.jar')
+    compile files('libs/alipaysecsdk.jar')
+    compile files('libs/alipayutdid.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/volley-14_10_10.jar')
+    compile files('libs/xUtils-2.6.13.jar')
+}
+```
 
 ## 3. SDK的基础使用  ##
 
