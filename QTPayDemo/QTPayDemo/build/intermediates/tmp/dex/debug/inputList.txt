@@ -1,0 +1,15 @@
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/classes/debug
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-8c67d857fdae51c9f713f6bb064532ab471ffd71.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-1aaa13b9c2fb6d517d0ef03eb4a269641be7b131.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipayutdid-33a657129ccf8f3cf2c3e8bbab042347467fe889.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-bd81e1f9368222699126980496331709105da226.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysecsdk-4c1b992ccf51482e2745465f0dbd4c58dd806c14.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-20f9b222b36cdfe9b9f9e93c77c9915c9acc7a7f.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qtsdk-c5e32f212fd4e69acf0f8e5b69925a1b4a130b4b.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysdk-28c1bc07fbb74733b316cf13046d9fcbb9a29361.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/libammsdk-c7ba5f24ff3d537cb6851580334c4ba73fa1efa8.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/gson-2.2.4-8ba6b7bf643ba8842d13b91761cca9d4b14abc00.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-b736c8915369c16f82e5daddddd16711cf30e0e3.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/xUtils-2.6.13-b55e1f2626c366f10dac43e8b87e6717b49f27d2.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qrcore-974be410e204b2efb28b89d83776b3c2548577ff.jar
+/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-47f93e522ae245b3e7f320de7f20f0ad68f2ae2d.jar

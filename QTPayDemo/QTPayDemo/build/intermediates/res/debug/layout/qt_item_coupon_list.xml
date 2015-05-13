@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/qt_coupon1_bg"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="36dip"
+                android:layout_weight="2.2"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_rmb_qt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="11dip"
+                    android:gravity="center_vertical"
+                    android:text="￥"
+                    android:textColor="@color/qtTextWhite"
+                    android:textSize="@dimen/qt_large" />
+
+                <TextView
+                    android:id="@+id/tv_amt_qt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dip"
+                    android:gravity="center_vertical"
+                    android:text="5.00"
+                    android:textColor="@color/qtTextWhite"
+                    android:textSize="22sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_condition_qt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="消费满50使用"
+                    android:textColor="@color/qtTextWhite"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_text1_qt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="有效期至："
+                        android:textColor="@color/qtTextWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date_qt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="2015-02-03"
+                        android:textColor="@color/qtTextWhite"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="20dip"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_tiick_qt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qt_tiick" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/src/main/res/layout/qt_item_coupon_list.xml -->

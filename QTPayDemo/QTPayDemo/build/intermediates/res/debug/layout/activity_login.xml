@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColorBg" >
+
+    <include layout="@layout/title_qt" />
+
+    <LinearLayout
+        android:layout_below="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <com.example.qianfangdemo.view.ClearEditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_input_reg"
+                android:drawableLeft="@drawable/login_user"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_login_delete"
+                android:gravity="center_vertical|left"
+                android:hint="手机号"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_gray"
+                android:textColorHint="@color/light_gray"
+                android:textSize="@dimen/medium" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_nextstep"
+            android:text="登  录"
+            android:textSize="@dimen/medium" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/version"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text=""/>
+</RelativeLayout><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/src/main/res/layout/activity_login.xml -->
