@@ -8,7 +8,7 @@
 | 字段名 | 类型 | 描述 |
 | :---- | :---- | :---- |
 | QTConst.PAY_RESULT | int | 交易结果变量 |
-| QTConst.PAY_ORDER | Order | 订单信息bean |
+| QTConst.PAY_ORDER | com.qfpay.sdk.entity.Order | 订单信息bean |
 
 参考示例如下：
 
@@ -30,8 +30,6 @@
 			...
 			} else if (resultCode == QTConst.ACTIVITY_RETURN_ERROR) {
 			...
+
 			}
-		}
-		super.onActivityResult(requestCode, resultCode, data);
-	}
-```
+		} super.onActivityResult(requestCode, resultCode, data); } ```
