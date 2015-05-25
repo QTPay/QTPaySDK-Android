@@ -9,7 +9,7 @@
 | :---- | :---- | :---- |
 | QTConst.PAY_RESULT | int | 交易结果变量 |
 | QTConst.PAY_ORDER | com.qfpay.sdk.entity.Order | 订单信息bean |
-
+| QTConst.ORDER_ID | String | orderId |
 参考示例如下：
 
 ```java
