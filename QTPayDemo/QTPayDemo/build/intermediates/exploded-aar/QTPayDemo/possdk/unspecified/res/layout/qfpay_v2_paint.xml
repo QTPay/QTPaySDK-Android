@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/qfpay_bg"
+    android:paddingLeft="6dp"
+    android:paddingTop="10dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="6dp"
+>
+   	<FrameLayout 
+		android:layout_width="match_parent"
+		android:layout_height="0px" 
+		android:background="@drawable/qfpay_paint_bg"
+		android:layout_weight="1"
+	>	
+		<ImageView 
+		    android:id="@+id/iv_sign_tip"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/qfpay_sign_tip"
+		    android:layout_gravity="center"
+		/>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+			android:layout_height="match_parent" 
+	        android:orientation="vertical"
+	    >
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="34dp"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	        >
+	            
+	               <TextView 
+	                   android:id="@+id/tv_amount"
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="match_parent"
+	                   android:gravity="center_vertical"
+	                   android:textColor="@android:color/black"
+	                   android:textSize="@dimen/qfpay_large"
+	               />
+	                
+	            
+	               <TextView 
+	                   android:id="@+id/tv_recipient"
+	                   android:layout_width="match_parent"
+	                   android:layout_height="match_parent"
+	                   android:textSize="@dimen/qfpay_medium"
+	                   android:textColor="@color/darkgray"
+	                   android:gravity="center_vertical|right"
+	               />
+	        </LinearLayout>
+	        
+	        <View 
+	            android:layout_width="match_parent"
+	            android:layout_height="1px"
+	            android:background="@drawable/qfpay_spline"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+			 />     
+	            
+	       	<LinearLayout 
+	       	    android:layout_width="match_parent"
+				android:layout_height="0px" 
+	       	    android:layout_weight="1"
+	       	    android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            android:orientation="vertical"
+	       	/>
+	            
+	       	<LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="30dp"
+	       	    android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            android:orientation="vertical"
+	        >
+	                
+	       	    	<View 
+			            android:layout_width="match_parent"
+			            android:layout_height="1px"
+			            android:background="@drawable/qfpay_spline"
+			        />  
+	              	
+	       	    	<FrameLayout 
+			       	    android:layout_width="match_parent"
+			       	    android:layout_height="match_parent"
+	       			>
+			            <TextView 
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:text="@string/sing_name_orientation"
+			                android:textSize="12dp"
+			                android:textColor="@color/grayline"
+			                android:layout_gravity="center"
+			            />
+	        		</FrameLayout> 
+	                
+	        </LinearLayout>    
+	       	    
+	    </LinearLayout>
+		<!-- paint -->
+	   	<FrameLayout
+	        android:id="@+id/paint_container"
+	        android:layout_width="match_parent"
+			android:layout_height="match_parent" 
+			android:paddingTop="5dp"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+			android:paddingBottom="5dp"
+	   	/>
+	    
+	</FrameLayout>
+    
+    <!-- title -->
+    <LinearLayout 
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+		android:layout_height="@dimen/qfpay_paint_button_height"
+        android:layout_marginTop="5dp"
+    >
+ 		<Button 
+    	    android:id="@+id/clear_btn"
+    	    android:layout_width="0px"
+			android:layout_height="match_parent"
+			android:text="@string/re_sign"
+			android:layout_weight="0.4"
+			android:textColor="@color/qfpay_white"
+			android:textSize="@dimen/qfpay_medium"
+			android:layout_marginLeft="6dp"
+			android:background="@drawable/qfpay_paint_clear_selsetor"
+			
+    	/>
+    	<TextView 
+    	    android:layout_width="20dp"
+			android:layout_height="wrap_content"
+    	/>
+    	<Button 
+    	    android:id="@+id/next_btn"
+    	    android:layout_width="0px"
+			android:layout_height="match_parent"
+			android:text="@string/confirm_trade"
+			android:layout_weight="0.6"
+			android:textColor="@color/qfpay_white"
+			android:textSize="@dimen/qfpay_medium"
+			android:layout_marginRight="6dp"
+            android:background="@drawable/qfpay_trade_cloud_selsetor"
+    	/>
+    	
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/layout/qfpay_v2_paint.xml -->

@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QTPayDemo.iml" filepath="$PROJECT_DIR$/QTPayDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/possdk/possdk.iml" filepath="$PROJECT_DIR$/possdk/possdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/QTPayDemo/qTPayDemo.iml" filepath="$PROJECT_DIR$/QTPayDemo/qTPayDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qTPaySDK/qTPaySDK.iml" filepath="$PROJECT_DIR$/qTPaySDK/qTPaySDK.iml" />
     </modules>
   </component>
 </project>

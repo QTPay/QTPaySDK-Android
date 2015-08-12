@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="QFSdkBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/qfpay_blue</item>
+        <item name="colorPrimaryDark">@color/qf_blue_dark</item>
+        <item name="colorAccent">@color/qfpay_blue</item>
+    </style>
+
+
+    <style name="QFBaseTheme" parent="QFSdkBaseTheme">
+
+    </style>
+
+    <style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@anim/qfpay_custom_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/qfpay_custom_dialog_exit</item>
+    </style>
+    <!-- dialog -->
+    <style name="MenuDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="ListDialog" parent="MenuDialog">
+
+        <!-- pop_bg -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:windowAnimationStyle">@style/ListDialog.AnimationStyle</item> -->
+    </style>
+
+
+    <style name="Theme.UMDialog" parent="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+
+    <style name="myInDeterProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:progressDrawable">@drawable/qfpay_progress_horizontal</item>
+        <item name="android:indeterminate">true</item>
+        <!--<item name="android:indeterminateDrawable">@drawable/qfpay_progress_drawables</item>-->
+        <item name="android:maxHeight">8dip</item>
+    </style>
+</resources>

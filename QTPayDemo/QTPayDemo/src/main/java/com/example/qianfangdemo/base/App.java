@@ -4,6 +4,9 @@ import android.app.Application;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.example.qianfangdemo.Utils.AssetsDatabaseManager;
+import com.example.qianfangdemo.entity.BankInfo;
+import com.example.qianfangdemo.entity.SubBank;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.qfpay.sdk.utils.SharedPreferencesAccess;
@@ -15,13 +18,14 @@ import java.util.List;
 public class App extends Application {
 
 	public static SharedPreferencesAccess sharedPreferencesAccess;
-
+	public static List<BankInfo> bankInfos;
+	public static List<SubBank> subBanks;
 	@Override
 	public void onCreate() {
 		super.onCreate();
 		sharedPreferencesAccess = SharedPreferencesAccess.getInstance(getApplicationContext());
+		AssetsDatabaseManager.initManager(getApplicationContext());
 		initConfigs();
-
 	}
 
 	public static String getAppCod() {
@@ -53,6 +57,13 @@ public class App extends Application {
 			return new int[] { 0, 0 };
 		}
 	}
+
+    public static String getUtilsDomain(){
+        if((getIndex()[0]) == 0){
+            return ConstValue.util;
+        }
+        return ConstValue.util_sandbox;
+    }
 
 	public static UserConfig getCurrentUserConfig() {
 		UserConfig userConfig = null;

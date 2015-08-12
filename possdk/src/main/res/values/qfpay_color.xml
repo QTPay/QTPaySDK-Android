@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qfpay_background">#FFFFFF</color>
+    <color name="qfpay_text">#6e6e6e</color>
+    <color name="qfpay_time">#8D8D8D</color>
+    <color name="qfpay_number">#545454</color>
+    <color name="feedback_layout_background">#2EA2D7</color>
+    <color name="active_blue">#0374f3</color>
+    <color name="paint_backcolor">#f3f6f9</color>
+    <color name="sign_backcolor">#00000000</color>
+    <color name="gray">#aaadb5</color>
+    <color name="line_left">#000000</color>
+    <color name="line_right">#5c5c5c</color>
+    <color name="amount_background">#e1e5ee</color>
+    <color name="input_amount_color">#73797e</color>
+    <color name="black_12">#1e000000</color><!-- 透明度为12%的黑色 -->
+    <color name="main_bule_press">#0094ce</color>
+    <color name="main_gray_press">#a7a9ae</color>
+    <color name="main_white_press">#e0e0e0</color>
+    <color name="btn_enable">#f2f2f2</color>
+    <color name="main_wchat_press">#388e3c</color>
+    <color name="main_wchat_normal">#3cb035</color>
+    <!-- register  -->
+
+    <color name="red_color">#FF0000</color>
+    <color name="qfpay_white">#FFFFFFFF</color>
+    <color name="qfpay_bg">#e2e4e5</color>
+    <color name="qfpay_biankuangse">#b2b2b2</color>
+    <color name="qfpay_content_title">#3f4245</color>
+    <color name="darkgray">#676d72</color>
+    <color name="qfpay_hintcolor">#b1b6bb</color>
+    <color name="qfpay_regblue">#005a7e</color>
+    <color name="qfpay_green">#238210</color>
+    <color name="qfpay_greyer">#d1d6da</color>
+
+    <color name="yellow">#ffcc00</color>
+    <color name="transparent">#00000000</color>
+    <color name="pre56transparent">#a000</color>
+    <color name="blue">#0000ff</color>
+    <color name="danlan">#86d3ef</color>
+
+    <!--version2  -->
+    <color name="v2_title">#dde1e5</color>
+
+    <color name="qfpay_blue">#00a8ea</color>
+    <color name="qf_blue_dark">#039BE5</color>
+    <color name="qf_blue_dark_alph">#B0039BE5</color>
+    <color name="qfpay_blue_press">#009bd8</color>
+
+    <color name="qfpay_lightgray">#B1B6BB</color>
+    <color name="redcc">#cc0000</color>
+    <color name="lightred">#ff4444</color>
+    <color name="yellow33">#ffbb33</color>
+    <color name="qfpay_orange88">#ff8800</color>
+    <color name="qfpay_orange_press">#da7400</color>
+    <color name="grayline">#b1b6bb</color><!-- 
+    <color name="whiteColorBg">#f8f6f3</color> -->
+    <color name="whiteColorBg">#f6f4f1</color>
+    <color name="blue33">#33ccff</color>
+    <color name="qfpay_red">#6fff4444</color>
+
+    <!-- prelogin -->
+    <color name="prelogin">#f8f6f3</color>
+    <color name="gray1">#cad0d5</color>
+    <color name="green">#08b400</color>
+    <color name="touming">#9000</color>
+
+    <!-- text colors -->
+    <color name="text_blue">#00a8ea</color>
+    <color name="text_red">#cc0000</color>
+    <color name="qfpay_text_black">#3f4245</color>
+    <color name="textblack">#3f4245</color>
+    <color name="text_grayblack">#676d72</color>
+    <color name="text_lightblack">#676D72</color>
+    <color name="text_pink">#ff2d55</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="qfpay_black">#000000</color>
+
+
+
+    <!-- account -->
+    <color name="white_trans_parent">#f7ffffff</color>
+    <color name="white_30_transparent">#4cffffff</color>
+    <color name="black_10_transparent">#09000000</color>
+    <color name="qfpay_white_bg">#f8f6f3</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 新功能引导页颜色 -->
+    <color name="guid1">#e4e389</color>
+    <color name="guid2">#e489c1</color>
+    <color name="guid3">#89cae4</color>
+    <color name="guid_bottom">#f3f3f3</color>
+
+
+    <!-- 二维码扫码 -->
+    <color name="encode_view">#ffffffff</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <!-- 导航条背景 -->
+    <color name="title_bar_bg">#F8F8F8</color>
+    <color name="title_bar_text_s">#01ABF2</color>
+    <color name="title_split_line">#f1f1f1</color>
+
+</resources>

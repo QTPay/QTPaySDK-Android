@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/qfpay_black" />
+
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp" />
+
+</shape><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/drawable/qfpay_toast_bg.xml --><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/res/drawable/qfpay_toast_bg.xml -->

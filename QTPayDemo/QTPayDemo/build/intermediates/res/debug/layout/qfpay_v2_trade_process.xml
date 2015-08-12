@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/qfpay_bg"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="6dp"
+>
+	
+    
+	<LinearLayout 
+   	    android:layout_width="match_parent"
+		android:layout_height="0px" 
+   	    android:background="@drawable/qfpay_input_amount"
+   	    android:layout_weight="1"
+   	    android:orientation="vertical"
+   	>
+   		<LinearLayout
+   	        android:layout_width="match_parent"
+   	        android:layout_height="0px"
+   	        android:layout_gravity="center"
+   	        android:layout_weight="1.60"
+   	        android:paddingLeft="10dp"
+   	        android:paddingRight="10dp" 
+   	    >
+   	        <FrameLayout 
+   	            android:layout_width="match_parent"
+   	            android:layout_height="match_parent"
+   	        >
+   	            
+	 	        <LinearLayout 
+	 	            android:layout_width="wrap_content"
+	       	        android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_gravity="bottom|center_horizontal"	        
+	 	        >
+	 	        
+		       	    <ImageView 
+		       	        android:id="@+id/iv_picture"
+		       	        android:layout_width="wrap_content"
+		       	        android:layout_height="wrap_content"
+	 	            	android:src="@drawable/qfpay_trade_process_picture"
+		       	    />
+		       	    
+		       	    <TextView 
+		       	        android:id="@+id/tv_time"
+		       	        android:layout_width="wrap_content"
+		       	        android:layout_height="wrap_content"
+		       	        android:textColor="@color/qfpay_blue"
+		       	        android:textSize="@dimen/qfpay_small"
+		       	        android:layout_gravity="center_horizontal"
+		       	        android:paddingTop="5dp"
+		       	        android:paddingBottom="5dp"
+		       	    />
+		       	    
+	 	        </LinearLayout>
+	 	        
+   	        </FrameLayout>
+   	        
+ 	            
+   	    </LinearLayout>
+   	    
+       	<View 
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/qfpay_spline"
+            android:layout_marginLeft="10dp"
+   	        android:layout_marginRight="10dp" 
+       	/>     
+     	<LinearLayout 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="0px"
+    	    android:orientation="vertical"
+    	    android:layout_weight="1"
+    	    android:gravity="center"
+     	 >
+
+	       	<TextView 
+	       	    android:id="@+id/tv_reader_status"
+	       	    android:layout_width="wrap_content"
+	       	    android:layout_height="wrap_content"
+	       	    android:textSize="@dimen/qfpay_medium"
+	       	    android:textColor="@color/darkgray"
+	       	/>
+     	        
+     	</LinearLayout>  
+	    
+	</LinearLayout> 
+	
+	<!-- bottom -->
+    <LinearLayout 
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+        android:paddingTop="5dp"
+    >
+    	<View 
+    	    android:layout_width="match_parent"
+			android:layout_height="@dimen/qfpay_button_height"
+    	/>
+    </LinearLayout>    
+</LinearLayout><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/layout/qfpay_v2_trade_process.xml --><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/res/layout/qfpay_v2_trade_process.xml -->

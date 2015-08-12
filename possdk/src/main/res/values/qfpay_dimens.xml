@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="reg_input_height">44dip</dimen>
+    <dimen name="reg_pic_height">120dip</dimen>
+    <dimen name="reg_margin_top">8dip</dimen>
+    <dimen name="reg_title_tvheight">30dip</dimen>
+    <dimen name="reg_title_tv_margin_left">18dip</dimen>
+    <dimen name="reg_layout_margin">8dip</dimen>
+    <dimen name="reg_tv_margin_left">10dip</dimen>
+    <dimen name="reg_tv_layout_height">30dip</dimen>
+    <dimen name="reg_tv_textsize">14dip</dimen>
+    <dimen name="reg_title_textsize">16dip</dimen>
+    <dimen name="reg_tv_textsize_14">14dip</dimen>
+    <dimen name="reg_btn_next_height">48dip</dimen>
+    <dimen name="input_amount_size">52sp</dimen>
+    <dimen name="reg_id_tv_margin_bottom">3dip</dimen>
+    <dimen name="reg_layout_padding">10dip</dimen>
+    <dimen name="reg_tv_textsize_18">18dip</dimen>
+    <dimen name="reg_title_height">48dip</dimen>
+    <dimen name="reg_spinner_18">14dip</dimen>
+
+    <dimen name="qfpay_micro">12dip</dimen>
+    <dimen name="qfpay_small">14sp</dimen>
+    <dimen name="qfpay_small_medium">16sp</dimen>
+    <dimen name="qfpay_medium">18sp</dimen>
+    <dimen name="qfpay_large">22sp</dimen>
+    <dimen name="qfpay_huge">36dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_banner_height">96dp</dimen>
+    <dimen name="main_title_bar_height">56dp</dimen>
+
+    <dimen name="public_title_padding">10dp</dimen>
+    <dimen name="title_drawable_padding">3dp</dimen>
+    <dimen name="qfpay_button_height">45dp</dimen>
+    <dimen name="qfpay_paint_button_height">45dp</dimen>
+</resources>

@@ -11,7 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/QTPayDemo" />
             <option value="$PROJECT_DIR$/library" />
-            <option value="$PROJECT_DIR$/qTPaySDK" />
+            <option value="$PROJECT_DIR$/possdk" />
           </set>
         </option>
       </GradleProjectSettings>

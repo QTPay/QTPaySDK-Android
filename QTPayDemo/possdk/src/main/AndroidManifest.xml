@@ -1,0 +1,119 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qfpay.qpossdk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:allowBackup="true">
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.QfTradeCloudActivity"
+            android:allowTaskReparenting="true"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/QFBaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="qpos" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.ReaderActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="true"
+            android:theme="@style/QFBaseTheme" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.ChooseDeviceActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/Theme.UMDialog" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.ConfirmSignActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.TradeProcessActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.MacErrorUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/Theme.UMDialog" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.SuccessResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.FailedResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.UnkonwResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.qfpay.qpossdk.activity.PaintActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.qfpay.qpossdk.activity.CertificatePreviewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qfpay.qpossdk.activity.CertificateUploadActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/QFBaseTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.qfpay.qpossdk.activity.ReceiptActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/QFBaseTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+
+    </application>
+
+</manifest>

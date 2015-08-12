@@ -14,5 +14,22 @@
     <color name="darkgray">#676d72</color>
     <color name="textblue">#34aadc</color>
     <color name="darkgray1">#8a8a8a</color>
+    <color name="line_left">#000000</color>
+    <color name="main_white_press">#e0e0e0</color>
+    <color name="text_grayblack">#676d72</color>
+    <color name="main_gray_press">#d5d5d5</color>
+    <color name="btn_enable">#f2f2f2</color>
+    <color name="text_lightblack">#b1b6bb</color>
+    <color name="text_red">#cc0000</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="main_bule_press">#0094ce</color>
+    <color name="QFblue">#00a8ea</color>
+    <color name="lightgray">#d1d6da</color>
+    <color name="app_black">#484848</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4Dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
 
+    <color name="app_theme_color">#2196F3</color>
+    <color name="app_theme_color_dark">#1976D2</color>
 </resources>

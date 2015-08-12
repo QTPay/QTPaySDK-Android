@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/qtsdk.jar"
+        jar="/Users/qfpay/Downloads/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="3261a1125ee594b5f65aadc7caea082688085680">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/qtsdk-0673187839a4de66879e341c9e337227e5a4a18c.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/alipaysdk.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="b40481f01537a329936ce54ee2fe15ef2537f010">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysdk-de727deb73e698897082a0b25e6d45eb26b2d20c.jar" />
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-785f3d9687984def4e68409f4c13e4bb1f4e5789.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysdk.jar"
@@ -23,18 +16,11 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysdk-28c1bc07fbb74733b316cf13046d9fcbb9a29361.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/volley-14_10_10.jar"
+        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="37b90476f52aeaa60faba5c2af239ea4e38ef1ab">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-10ae5ac4a9ebefe3ef99534bdb2a658c1e419ffb.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="73c1edea70a74badcf12ac1f30c688b0460abe47">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/classes-61770571cbceae3ab3e9820daa9de4e247a2634f.jar" />
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/library-2.4.0-fe35cc49a5de063909109821c50552b9f81ada41.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/xUtils-2.6.13.jar"
@@ -44,18 +30,60 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/xUtils-2.6.13-b55e1f2626c366f10dac43e8b87e6717b49f27d2.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/xUtils-2.6.13.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="149586602e581f306ccc6fe813a60d7b956252d9">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/xUtils-2.6.13-2b3c4298646de598d4528eac9e0f129d25a714b8.jar" />
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-e7cc5d9d0ea3a5f34cc21a1e1be8b3a4be58a23a.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-47f93e522ae245b3e7f320de7f20f0ad68f2ae2d.jar" />
+        revision="22.0.1"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-1aaa13b9c2fb6d517d0ef03eb4a269641be7b131.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/volley-14_10_10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="37b90476f52aeaa60faba5c2af239ea4e38ef1ab">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-20f9b222b36cdfe9b9f9e93c77c9915c9acc7a7f.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b40481f01537a329936ce54ee2fe15ef2537f010">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysdk-28c1bc07fbb74733b316cf13046d9fcbb9a29361.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f3877554df828561295dfebfedeab8c2b11a8e5">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-bd81e1f9368222699126980496331709105da226.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/possdk_v0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adfb33aab42ebde72b7e2220009e68c802a50343">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/possdk_v0.3-7ef8c09be6a3b6405f418e57ce78c04d3ebc37e6.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.5/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-c253ca9a7b4d575eea6d00f3c0e4a4a63ff06705.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysecsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysecsdk-4c1b992ccf51482e2745465f0dbd4c58dd806c14.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/qrcore.jar"
@@ -65,32 +93,32 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qrcore-974be410e204b2efb28b89d83776b3c2548577ff.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/libammsdk.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipayutdid.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="db6144f812752e2f62b8811c8b9d5e4346fff151">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/libammsdk-8471a246f33fb6c1db0e631a1768dee4341f5708.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/alipaysecsdk.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="7413c074c9edf523050267b93d0875151dc4b644">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysecsdk-99fe948722241c5f992ee578b96fc1424da8a494.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/alipayutdid.jar"
-        jumboMode="false"
-        revision="21.1.1"
+        revision="22.0.1"
         sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/alipayutdid-fd066ef3bd2b8b8b284600ec2c8aff296851b99b.jar" />
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipayutdid-33a657129ccf8f3cf2c3e8bbab042347467fe889.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Downloads/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/classes.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-8c67d857fdae51c9f713f6bb064532ab471ffd71.jar" />
+        revision="22.0.1"
+        sha1="0c2557d7c0d7eaf9c30f49a0a08155222587fd31">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-52d3be075c68403e3d308ec60af9d15cf64ac1a0.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/xUtils-2.6.13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="149586602e581f306ccc6fe813a60d7b956252d9">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/xUtils-2.6.13-b55e1f2626c366f10dac43e8b87e6717b49f27d2.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/gson-2.3-2b7f23a0bda5567e86fbb2e775ee4ba82c40f743.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
@@ -107,11 +135,32 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-20f9b222b36cdfe9b9f9e93c77c9915c9acc7a7f.jar" />
     </item>
     <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-8782243639d586018af322d207bdd39483be2a8a.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="db6144f812752e2f62b8811c8b9d5e4346fff151">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/libammsdk-c7ba5f24ff3d537cb6851580334c4ba73fa1efa8.jar" />
+    </item>
+    <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/classes.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="0f3877554df828561295dfebfedeab8c2b11a8e5">
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-bd81e1f9368222699126980496331709105da226.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/libs/dspread_android_sdk_2.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c0a9fbb9fb36a7bbc5e937132159f96f227e03c">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/dspread_android_sdk_2.3.9-d692fae5a8eff15650b624200b781390aaf374e0.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysecsdk.jar"
@@ -128,11 +177,11 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qtsdk-c5e32f212fd4e69acf0f8e5b69925a1b4a130b4b.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/qtsdk.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/classes-122b0c020cab9407bbfa3e8108f39ea873f730a1.jar" />
+        revision="22.0.1"
+        sha1="3261a1125ee594b5f65aadc7caea082688085680">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qtsdk-c5e32f212fd4e69acf0f8e5b69925a1b4a130b4b.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipayutdid.jar"
@@ -142,11 +191,11 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipayutdid-33a657129ccf8f3cf2c3e8bbab042347467fe889.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/libs/qrcore.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/qrcore-82dc0c1a769536dfb68715b381320806e5097486.jar" />
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-ecc9298929ade9a8f5c2045d5a9e7764fefc0d0b.jar" />
     </item>
     <item
         jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/libammsdk.jar"
@@ -156,32 +205,11 @@
         <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/libammsdk-c7ba5f24ff3d537cb6851580334c4ba73fa1efa8.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/qrcore.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-200715b7fc6c6cfad2a9096e6bf22160534a00e6.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-b736c8915369c16f82e5daddddd16711cf30e0e3.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/classes-44230f79b00ebb2bedb46d166dd61d298b46bd3b.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="/Users/qfpay/Workspace/qtsdk/QTPayDemo/build/intermediates/pre-dexed/debug/gson-2.2.4-8ba6b7bf643ba8842d13b91761cca9d4b14abc00.jar" />
+        revision="22.0.1"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qrcore-974be410e204b2efb28b89d83776b3c2548577ff.jar" />
     </item>
 
 </items>

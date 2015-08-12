@@ -88,7 +88,7 @@ public class MainActivity extends BaseActivity {
 		mTotalAmt = totalAmount + "";
 
 		if (!Utils.isCanConnectionNetWork(MainActivity.this)) {
-			Toast.makeText(MainActivity.this, "网络连接异常！", Toast.LENGTH_SHORT);
+			Toast.makeText(MainActivity.this, "网络连接异常！", Toast.LENGTH_SHORT).show();
 			return;
 		}
 
@@ -112,7 +112,7 @@ public class MainActivity extends BaseActivity {
 
 					mqt.setOutOrderToken(ConstValue.orderToken);
 					// 跳转到下单页面
-					jumpToCashier(amt);
+					jumpToCashier(mTotalAmt);
 
 				} catch (Exception e) {
 					if (dialog.isShowing()) {
@@ -146,7 +146,7 @@ public class MainActivity extends BaseActivity {
 		mQueue.add(req);
 	}
 
-	private void jumpToCashier(int amt) {
+	private void jumpToCashier(String amt) {
 		Intent intent = new Intent(MainActivity.this, HomeActivity.class);
 		intent.putExtra(QTConst.EXTRO, new QTHolder(QTConst.ServerType_PAY, Integer.valueOf(amt), goods, extraInfo,
 				ConstValue.mobile));

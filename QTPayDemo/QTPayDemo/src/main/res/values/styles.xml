@@ -1,12 +1,24 @@
 <resources>
 
-    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar"></style>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
 
-    <style name="AppTheme" parent="AppBaseTheme"></style>
+    <style name="AppTheme" parent="AppBaseTheme"/>
 
     <style name="DialogStyle" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground"> @android:color/transparent </item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
+    <style name="AppcompatTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+        <!--<item name="actionBarSplitStyle">?attr/actionBarStyle</item>-->
+        <!--<item name="actionBarWidgetTheme">@null</item>-->
+        <!--<item name="actionOverflowButtonStyle">@style/MyOverflowStyle</item>-->
+
+        <item name="colorPrimary">@color/app_theme_color</item>
+        <item name="colorPrimaryDark">@color/app_theme_color_dark</item>
+        <item name="colorAccent">@color/app_theme_color</item>
+
+    </style>
 </resources>

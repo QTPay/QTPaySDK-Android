@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qfpay_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/qfpay_v2_title2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/qfpay_white_bg"
+                android:paddingBottom="@dimen/reg_layout_padding"
+                android:paddingTop="8dip"
+                android:orientation="vertical"
+                 >
+            <FrameLayout
+                android:id="@+id/layout_member_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="22dip"
+                android:background="@drawable/qfpay_takepicture_press"
+                android:clickable="true"
+                android:gravity="center"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:clickable="false"
+                    android:id="@+id/iv_mem_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="180dip"
+                    android:maxWidth="200dip"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv_certificate__chongpai_tip"
+                    android:clickable="false"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#99ffffff"
+                    android:gravity="center"
+                    android:textSize="@dimen/qfpay_small"
+                    android:textColor="@color/textblack"
+                    android:text="点击重选照片" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/et_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/qfpay_input_reg"
+                android:gravity="left|top"
+                android:hint="备注"
+                android:inputType="textMultiLine"
+                android:maxLength="50"
+                android:textSize="@dimen/qfpay_medium" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_agree"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reg_btn_next_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="@dimen/reg_layout_margin"
+                android:layout_marginRight="@dimen/reg_layout_margin"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/qfpay_next_normal"
+                android:text="提交"
+                android:textColor="@color/qfpay_white"
+                android:textSize="@dimen/qfpay_large" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

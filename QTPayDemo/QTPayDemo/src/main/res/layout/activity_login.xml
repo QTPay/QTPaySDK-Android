@@ -29,7 +29,7 @@
                 android:hint="手机号"
                 android:padding="10dip"
                 android:singleLine="true"
-                android:text=""
+                android:text="18500224546"
                 android:textColor="@color/dark_gray"
                 android:textColorHint="@color/light_gray"
                 android:textSize="@dimen/medium" />

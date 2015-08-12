@@ -1,13 +1,15 @@
 package com.example.qianfangdemo.activity;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -17,10 +19,15 @@ import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.example.qianfangdemo.Utils.T;
+import com.example.qianfangdemo.Utils.Toaster;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.ConstValue;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.event.OnClick;
+import com.qfpay.qpossdk.entity.PayOrderInfo;
+import com.qfpay.qpossdk.pay.QfPayCallBack;
+import com.qfpay.qpossdk.pay.QfPaySdk;
+import com.qfpay.sdk.entity.Good;
 import com.qfpay.sdk.utils.Utils;
 
 import org.json.JSONArray;
@@ -28,10 +35,13 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 import qfpay.wxshop.R;
 
 public class GoodsListActivity extends BaseActivity {
+
+    private static final String TAG = "GoodsListActivity";
 
 	private boolean isCallQpos =  false;
 	
@@ -46,6 +56,8 @@ public class GoodsListActivity extends BaseActivity {
 	
 	private static final int DIALOG_SUCCESS = 0;
 	private static final int DIALOG_FAIL = 1;
+
+    private static final int CALL_POS_SDK = 4;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -58,9 +70,10 @@ public class GoodsListActivity extends BaseActivity {
 	protected void onResume() {
 		if(isCallQpos){
 			//如果已经唤起了QPOS，则在onResume中对订单进行查询，看看是否已经支付成功
-			queryOrder();
+//			queryOrder();
 			isCallQpos = false;
 		}
+		qf_token = "";
 		super.onResume();
 	}
 	
@@ -70,28 +83,64 @@ public class GoodsListActivity extends BaseActivity {
 	private void onCreateOrderClick(View view) {
 		goodsname = "奥迪A6";
 		goodsamt = "30";
-		itemClick(1);
+        showAmtDialog(1);
 	}
 
 	@OnClick(R.id.order_two)
 	private void onRechargeClick(View view) {
 		goodsname = "特斯拉";
 		goodsamt = "50";
-		itemClick(2);
+        showAmtDialog(2);
 	}
 
 	@OnClick(R.id.order_three)
 	private void onPrePayClick(View view) {
 		goodsname = "老年代步车";
 		goodsamt = "10";
-		itemClick(3);
+        showAmtDialog(3);
 	}
 
-	private void itemClick(int amt) {
+    @OnClick(R.id.order_qpossdk)
+    private void onSDKPayClick(View view) {
+        goodsname = "老年代步车SDK";
+        goodsamt = "10";
+        showAmtDialog(CALL_POS_SDK);
+    }
+
+    private Dialog amtDialog;
+
+    /**
+     * 显示输入金额对话框
+     */
+    private void showAmtDialog(final int select){
+
+        View view = getLayoutInflater().inflate(R.layout.amount_dialog, null);
+
+        final EditText amountEditText = (EditText)view.findViewById(R.id.amountEditText);
+        amountEditText.setText(goodsamt);
+        amountEditText.setSelection(goodsamt.length());
+        if(amtDialog == null) {
+            amtDialog = new Dialog(GoodsListActivity.this);
+        }
+        amtDialog.show();
+        amtDialog.setContentView(view);
+        view.findViewById(R.id.setButton).setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				amtDialog.dismiss();
+
+				goodsamt = amountEditText.getText().toString();
+				itemClick(select);
+			}
+		});
+    }
+
+	private void itemClick(final int amt) {
 		//带着token和商品信息去获取支付订单号
 
 		if (!Utils.isCanConnectionNetWork(GoodsListActivity.this)) {
-			Toast.makeText(GoodsListActivity.this, "网络异常", Toast.LENGTH_SHORT);
+			Toast.makeText(GoodsListActivity.this, "网络异常", Toast.LENGTH_SHORT).show();
 			return;
 		}
 
@@ -106,7 +155,7 @@ public class GoodsListActivity extends BaseActivity {
 			@Override
 			public void onResponse(String arg0) {
 				try {
-					T.d(arg0.toString());
+					T.d(arg0);
 
 					if (dialog.isShowing()) {
 						dialog.dismiss();
@@ -138,16 +187,16 @@ public class GoodsListActivity extends BaseActivity {
 										T.d("create_userid : "+ create_userid);
 									}
 
-									//qf_token为免登录设计，若需要免登录，唤起钱方商户时需要携带qf_token，同时签名中也需要增加该参数
-//                                    if(dataJson.has("qf_token")){
-//                                        qf_token = dataJson.getString("qf_token");
-//                                    }
+                                    if(dataJson.has("qf_token")){
+                                        qf_token = dataJson.getString("qf_token");
+                                    }
 
 								}
 								//唤起钱方商户的安全支付插件
-								callQposSafe();
+								callQposSafe(amt);
 							}
 						}else{
+                            T.d("resperr = " + resperr);
 							Toast.makeText(getApplicationContext(), resperr, Toast.LENGTH_SHORT).show();
 						}
 					}
@@ -204,19 +253,19 @@ public class GoodsListActivity extends BaseActivity {
 	
 	
 	/**
+     * 查询订单信息
 	 * 第二次进入该页面且已经唤起过QPOS，则查询订单情况
 	 */
 	private void queryOrder(){
 
 		if (!Utils.isCanConnectionNetWork(GoodsListActivity.this)) {
-			Toast.makeText(GoodsListActivity.this, "网络异常", Toast.LENGTH_SHORT);
+			Toast.makeText(GoodsListActivity.this, "网络异常", Toast.LENGTH_SHORT).show();
 			return;
 		}
 
 		if (dialog != null) {
 			dialog.show();
 		}
-
 
 		//到server查询该笔订单的交易情况
 		StringRequest req = new StringRequest(Method.GET, App.getDomain() + ConstValue.URL_QUERY+"?order_id=" + ConstValue.payOrderId, new Listener<String>() {
@@ -231,45 +280,45 @@ public class GoodsListActivity extends BaseActivity {
 					}
 
 					JSONObject tokenJson = new JSONObject(arg0);
-					
-					
+
 					if (tokenJson.has("respcd")) {
 						String respcd = tokenJson.getString("respcd");                             
 						String resperr = tokenJson.getString("resperr");
 						
-						if("0000".equals(respcd)){
-							
-							if (tokenJson.has("data")) {
-								String data = tokenJson.getString("data");
-								T.d("data : "+data);
-								if (data != null && !data.equals("")) {
-									JSONObject dataJson = new JSONObject(data); 
-									if (dataJson.has("order_info")) {
-										JSONArray orderList = dataJson.getJSONArray("order_info");
-										if(orderList.getJSONObject(0) != null){
-											JSONObject datamap = orderList.getJSONObject(0);
-											if(datamap.has("status")){
-												int status = datamap.getInt("status");
-												T.i("status : " + status);
-												//1：未支付  2：支付成功
-												if(status == 2){
-													//支付成功
-													showDialog(DIALOG_SUCCESS);
-												}else{
-													//失败
-													showDialog(DIALOG_FAIL);
-												}
-											}
-										}
-									}
-								}
-							}
-						}else{
-							Toast.makeText(getApplicationContext(), resperr, Toast.LENGTH_SHORT).show();
-						}
-						
-						
-					}
+						if(!"0000".equals(respcd)) {
+                            Toast.makeText(getApplicationContext(), resperr, Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+
+                        if (tokenJson.has("data")) {
+                            String data = tokenJson.getString("data");
+                            T.d("data : " + data);
+                            if (TextUtils.isEmpty(data)) {
+                                // 无订单信息数据
+                                return;
+                            }
+
+                            JSONObject dataJson = new JSONObject(data);
+                            if (dataJson.has("order_info")) {
+                                JSONArray orderList = dataJson.getJSONArray("order_info");
+                                if (orderList.getJSONObject(0) != null) {
+                                    JSONObject datamap = orderList.getJSONObject(0);
+                                    if (datamap.has("status")) {
+                                        int status = datamap.getInt("status");
+                                        T.i("status : " + status);
+                                        //1：未支付  2：支付成功
+                                        if (status == 2) {
+                                            //支付成功
+                                            showDialog(DIALOG_SUCCESS);
+                                        } else {
+                                            //失败
+                                            showDialog(DIALOG_FAIL);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
 
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -287,8 +336,7 @@ public class GoodsListActivity extends BaseActivity {
 			}
 		});
 		mQueue.add(req);
-		
-		
+
 	}
 	
 
@@ -297,45 +345,63 @@ public class GoodsListActivity extends BaseActivity {
 	/**
 	 * 唤起安全支付插件
 	 */
-	protected void callQposSafe() {
-		
+	protected void callQposSafe(int select) {
+
+        /**
+         * 唤起Qpos SDK支付
+         */
+		if (select == CALL_POS_SDK) {
+			callPosSdk();
+			return;
+		}
+
+        /**
+         * 唤起钱方商户支付
+         */
 		timestamp = System.currentTimeMillis() + "";
-        String oriStr = "";
-        if(TextUtils.isEmpty(qf_token)) {
-             oriStr = "pay_order_create=" + create_userid +
-                    "pay_order_id=" + ConstValue.payOrderId +
-                    "platform=2" +
-                    "timestamp=" + timestamp +
-                    "qpos";
-        }else{ //免登录
-            oriStr = "pay_order_create=" + create_userid +
-                    "pay_order_id=" + ConstValue.payOrderId +
-                    "platform=2" +
-                    "qf_token=" + qf_token +
-                    "timestamp=" + timestamp +
-                    "qpos";
-        }
-		//MD5加密
-		sign = Utils.toMd5(oriStr);
-		T.w("sign加密前原数据 ： " + oriStr);
+
+
+		//=======不再校验MD5
+//        String oriStr = "";
+//        if(TextUtils.isEmpty(qf_token)) {
+//             oriStr = "pay_order_create=" + create_userid +
+//                    "pay_order_id=" + ConstValue.payOrderId +
+//                    "platform=2" +
+//                    "timestamp=" + timestamp +
+//                    "qpos";
+//        }else{
+//            oriStr = "pay_order_create=" + create_userid +
+//                    "pay_order_id=" + ConstValue.payOrderId +
+//                    "platform=2" +
+//                    "qf_token=" + qf_token +
+//                    "timestamp=" + timestamp +
+//                    "qpos";
+//        }
+//		//MD5加密
+//		sign = Utils.toMd5(oriStr);
+//		T.w("sign加密前原数据 ： " + oriStr);
 		
 		Intent intent = new Intent();
+
 		intent.setClassName("net.qfpay.king.android", "net.qfpay.king.android.function.tradecloud.activity.QfTradeCloudActivity");
+
+
 		Bundle bundle = new Bundle();
 		bundle.putString("pay_order_create", create_userid);
 		bundle.putString("pay_order_id", ConstValue.payOrderId);
         bundle.putString("platform", "2");
 		bundle.putString("timestamp", timestamp);
+		bundle.putString("mobile",ConstValue.mobile);
         if(!TextUtils.isEmpty(qf_token)) {
             bundle.putString("qf_token", qf_token);
         }
-		bundle.putString("sign", sign);
+//		bundle.putString("sign", sign);
 
         T.i("qf_token :" + qf_token);
 		T.i("pay_order_creater : " +  create_userid);
 		T.i("pay_order_id : " +  ConstValue.payOrderId);
 		T.i("timestamp : " + timestamp);
-		T.i("sign : " + sign);
+//		T.i("sign : " + sign);
 		
 		intent.putExtras(bundle);
 		startActivityForResult(intent, 1);
@@ -378,6 +444,65 @@ public class GoodsListActivity extends BaseActivity {
 	    }
 	    return dialog;
 	}
-	
+
+
+	// 支付结果获取和处理
+	// 实际交易结果以服务端返回结果为准
+	QfPayCallBack payCallBack = new QfPayCallBack() {
+		@Override
+		public void onPayResultFail() {
+			Toast.makeText(GoodsListActivity.this, "交易失败", Toast.LENGTH_LONG).show();
+			Log.w(TAG, "========================交易失败");
+			queryOrder();
+		}
+
+		@Override
+		public void onPayResultSuccess() {
+			Toast.makeText(GoodsListActivity.this, "交易成功", Toast.LENGTH_LONG).show();
+			Log.w(TAG, "========================交易成功");
+			queryOrder();
+		}
+
+		@Override
+		public void onPayResultCancel() {
+			Toast.makeText(GoodsListActivity.this, "交易取消", Toast.LENGTH_LONG).show();
+			Log.w(TAG, "========================交易取消");
+			queryOrder();
+		}
+
+		@Override
+		public void onPayResultUnknow() {
+			Toast.makeText(GoodsListActivity.this, "交易结果未知", Toast.LENGTH_LONG).show();
+			Log.w(TAG, "========================交易结果未知");
+			queryOrder();
+		}
+	};
+
+
+    private void callPosSdk(){
+
+		/**
+		 * 99963a5c18394e89ba74910625b088a1
+		 * qf_token :2d74b410-3433-4465-aec5-3ff75b57997e
+		 08-12 14:21:14.979  16286-16286/qfpay.wxshop I/qposSDK﹕ pay_order_creater : 924656
+		 08-12 14:21:14.979  16286-16286/qfpay.wxshop I/qposSDK﹕ pay_order_id : 6037114600195093168
+		 08-12 14:21:14.979  16286-16286/qfpay.wxshop I/qposSDK﹕ timestamp : 1439360474965
+		 */
+		// 组装PayOrderInfo对象
+        PayOrderInfo orderInfo = new PayOrderInfo();
+		// 支付订单创建者id
+        orderInfo.createUserId = create_userid;
+		// 支付订单号
+        orderInfo.payOrderId = ConstValue.payOrderId;
+		// 用户订单token
+        orderInfo.qfToken = qf_token;
+        orderInfo.mobile = ConstValue.mobile;
+		// 用户登录返回token
+        orderInfo.token = ConstValue.userToken;
+		orderInfo.platform = "2";
+
+		// 调用sdk进行支付
+        QfPaySdk.getInstance().payOrder(GoodsListActivity.this, orderInfo, payCallBack);
+    }
 
 }

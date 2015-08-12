@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_arrays.xml -->
+    <eat-comment/>
+    <string-array name="reg_id_popmenu">
+        <item>拍照</item>
+        <item>从媒体库选择照片</item>
+    </string-array>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <bool name="default_randomkeys">true</bool>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_color.xml -->
+    <eat-comment/>
+    <color name="active_blue">#0374f3</color>
+    <color name="amount_background">#e1e5ee</color>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <color name="black">#ff000000</color>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_color.xml -->
+    <eat-comment/>
+    <color name="black_10_transparent">#09000000</color>
+    <color name="black_12">#1e000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="blue33">#33ccff</color>
+    <color name="btn_enable">#f2f2f2</color>
+    <color name="danlan">#86d3ef</color>
+    <color name="darkgray">#676d72</color>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <color name="default_ev_border_color">#CCCCCC</color>
+    <color name="default_ev_password_color">#000000</color>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_color.xml -->
+    <eat-comment/>
+    <color name="encode_view">#ffffffff</color>
+    <color name="feedback_layout_background">#2EA2D7</color>
+    <color name="gray">#aaadb5</color>
+    <color name="gray1">#cad0d5</color>
+    <color name="grayline">#b1b6bb</color>
+    <color name="green">#08b400</color>
+    <color name="guid1">#e4e389</color>
+    <color name="guid2">#e489c1</color>
+    <color name="guid3">#89cae4</color>
+    <color name="guid_bottom">#f3f3f3</color>
+    <color name="input_amount_color">#73797e</color>
+    <color name="lightred">#ff4444</color>
+    <color name="line_left">#000000</color>
+    <color name="line_right">#5c5c5c</color>
+    <color name="main_bule_press">#0094ce</color>
+    <color name="main_gray_press">#a7a9ae</color>
+    <color name="main_wchat_normal">#3cb035</color>
+    <color name="main_wchat_press">#388e3c</color>
+    <color name="main_white_press">#e0e0e0</color>
+    <color name="paint_backcolor">#f3f6f9</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="pre56transparent">#a000</color>
+    <color name="prelogin">#f8f6f3</color>
+    <color name="qf_blue_dark">#039BE5</color>
+    <color name="qf_blue_dark_alph">#B0039BE5</color>
+    <color name="qfpay_background">#FFFFFF</color>
+    <color name="qfpay_bg">#e2e4e5</color>
+    <color name="qfpay_biankuangse">#b2b2b2</color>
+    <color name="qfpay_black">#000000</color>
+    <color name="qfpay_blue">#00a8ea</color>
+    <color name="qfpay_blue_press">#009bd8</color>
+    <color name="qfpay_content_title">#3f4245</color>
+    <color name="qfpay_green">#238210</color>
+    <color name="qfpay_greyer">#d1d6da</color>
+    <color name="qfpay_hintcolor">#b1b6bb</color>
+    <color name="qfpay_lightgray">#B1B6BB</color>
+    <color name="qfpay_number">#545454</color>
+    <color name="qfpay_orange88">#ff8800</color>
+    <color name="qfpay_orange_press">#da7400</color>
+    <color name="qfpay_red">#6fff4444</color>
+    <color name="qfpay_regblue">#005a7e</color>
+    <color name="qfpay_text">#6e6e6e</color>
+    <color name="qfpay_text_black">#3f4245</color>
+    <color name="qfpay_time">#8D8D8D</color>
+    <color name="qfpay_white">#FFFFFFFF</color>
+    <color name="qfpay_white_bg">#f8f6f3</color>
+    <color name="red_color">#FF0000</color>
+    <color name="redcc">#cc0000</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sign_backcolor">#00000000</color>
+    <color name="text_blue">#00a8ea</color>
+    <color name="text_grayblack">#676d72</color>
+    <color name="text_lightblack">#676D72</color>
+    <color name="text_pink">#ff2d55</color>
+    <color name="text_red">#cc0000</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="textblack">#3f4245</color>
+    <color name="title_bar_bg">#F8F8F8</color>
+    <color name="title_bar_text_s">#01ABF2</color>
+    <color name="title_split_line">#f1f1f1</color>
+    <color name="touming">#9000</color>
+    <color name="transparent">#00000000</color>
+    <color name="v2_title">#dde1e5</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="whiteColorBg">#f6f4f1</color>
+    <color name="white_30_transparent">#4cffffff</color>
+    <color name="white_trans_parent">#f7ffffff</color>
+    <color name="yellow">#ffcc00</color>
+    <color name="yellow33">#ffbb33</color>
+    <declare-styleable name="PasswordInputView"><attr format="integer" name="borderColor"/><attr format="dimension" name="borderRadius"/><attr format="dimension" name="borderWidth"/><attr format="integer" name="passwordLength"/><attr format="integer" name="passwordColor"/><attr format="dimension" name="passwordWidth"/><attr format="dimension" name="passwordRadius"/></declare-styleable>
+    <declare-styleable name="keyboard"><attr format="reference" name="xml"/><attr format="reference|boolean" name="randomkeys"/></declare-styleable>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <dimen name="bottom_button_height">46.0dip</dimen>
+    <dimen name="custom_ev_border_radius">3dp</dimen>
+    <dimen name="custom_ev_border_width">1dp</dimen>
+    <dimen name="custom_ev_password_width">6dp</dimen>
+    <dimen name="default_ev_border_radius">3dp</dimen>
+    <dimen name="default_ev_border_width">1dp</dimen>
+    <dimen name="default_ev_password_radius">3dp</dimen>
+    <dimen name="default_ev_password_width">6dp</dimen>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_dimens.xml -->
+    <eat-comment/>
+    <dimen name="input_amount_size">52sp</dimen>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <dimen name="key_height">46.0dip</dimen>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_dimens.xml -->
+    <eat-comment/>
+    <dimen name="main_banner_height">96dp</dimen>
+    <dimen name="main_title_bar_height">56dp</dimen>
+    <dimen name="public_title_padding">10dp</dimen>
+    <dimen name="qfpay_button_height">45dp</dimen>
+    <dimen name="qfpay_huge">36dip</dimen>
+    <dimen name="qfpay_large">22sp</dimen>
+    <dimen name="qfpay_medium">18sp</dimen>
+    <dimen name="qfpay_micro">12dip</dimen>
+    <dimen name="qfpay_paint_button_height">45dp</dimen>
+    <dimen name="qfpay_small">14sp</dimen>
+    <dimen name="qfpay_small_medium">16sp</dimen>
+    <dimen name="reg_btn_next_height">48dip</dimen>
+    <dimen name="reg_id_tv_margin_bottom">3dip</dimen>
+    <dimen name="reg_input_height">44dip</dimen>
+    <dimen name="reg_layout_margin">8dip</dimen>
+    <dimen name="reg_layout_padding">10dip</dimen>
+    <dimen name="reg_margin_top">8dip</dimen>
+    <dimen name="reg_pic_height">120dip</dimen>
+    <dimen name="reg_spinner_18">14dip</dimen>
+    <dimen name="reg_title_height">48dip</dimen>
+    <dimen name="reg_title_textsize">16dip</dimen>
+    <dimen name="reg_title_tv_margin_left">18dip</dimen>
+    <dimen name="reg_title_tvheight">30dip</dimen>
+    <dimen name="reg_tv_layout_height">30dip</dimen>
+    <dimen name="reg_tv_margin_left">10dip</dimen>
+    <dimen name="reg_tv_textsize">14dip</dimen>
+    <dimen name="reg_tv_textsize_14">14dip</dimen>
+    <dimen name="reg_tv_textsize_18">18dip</dimen>
+    <dimen name="title_drawable_padding">3dp</dimen>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <drawable name="key_normal_color">#fcfcfc</drawable>
+    <drawable name="key_selected_color">#b8bcc0</drawable>
+    <drawable name="keyboard_bg_color">#acb3b6</drawable>
+    <drawable name="opkey_selected_color">#cbcfd5</drawable>
+    <integer name="default_ev_password_length">6</integer>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_strings.xml -->
+    <eat-comment/>
+    <string name="active_loading">设备认证中，请稍候…</string>
+    <string name="add_member2sys">添加为会员</string>
+    <string name="back">返回</string>
+    <string name="back_button_text">  %1$s</string>
+    <string name="back_sign">返回重签</string>
+    <string name="beyond_the_limits_tip">该笔交易金额超出单次限额，如果您希望临时调整限额，请拨打客服电话</string>
+    <string name="button_done">完成</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_finish_process_tip">处理中，请稍候...</string>
+    <string name="cancel_search_device">取消设备扫描？</string>
+    <string name="cancel_swipe">是</string>
+    <string name="cancel_swipe_process_tip">取消中，请稍候...</string>
+    <string name="cancel_swipe_tip">是否取消本次刷卡？</string>
+    <string name="cancel_trade_tip">确定取消本次交易？</string>
+    <string name="cannotConnectServer">无法连接服务器,请稍后重试</string>
+    <string name="certificateTip0">尊敬的商户：</string>
+    <string name="certificateTip1">该笔交易已成功，由于交易额度较大，为了保证资金的安全性，请上传该笔交易凭证。</string>
+    <string name="certificateTip2">例如，持卡人在场交易场景、交易单据或信用卡正面照片。</string>
+    <string name="check_balance_loading">查询余额中，请稍候…</string>
+    <string name="client_recharge_card">充入会员卡</string>
+    <string name="confirm_sign_success">确认无误</string>
+    <string name="confirm_sign_tip">请将手机交还于商家</string>
+    <string name="confirm_trade">确认签名</string>
+    <string name="connect_server">连接中...</string>
+    <string name="deal_continue">继续新交易</string>
+    <string name="deal_exception">通讯中断</string>
+    <string name="deal_failure">失败</string>
+    <string name="deal_finish">返回</string>
+    <string name="deal_result">交易%s</string>
+    <string name="deal_success">成功</string>
+    <string name="dealing">正在处理交易数据，请稍候...</string>
+    <string name="dial_qf_phone">拨打客服电话</string>
+    <string name="dialogCertificateTip">信用卡单笔交易额度较大，为保证交易安全，请上传凭证照片</string>
+    <string name="dialog_choose_device">选择您要连接的QPOS</string>
+    <string name="dialog_searching_device">搜索中，请确保QPOS开机</string>
+    <string name="dialogbutton_setting_later">暂不设置</string>
+    <string name="dialogbutton_setting_rightnow">立即设置</string>
+    <string name="dialogmessage_setting_qpos_mode">为了正常使用钱方QPOS，请先设置QPOS型号和刷卡模式</string>
+    <string name="dont_need_receipt">不要收据</string>
+    <string name="error_active_pos_failed">更新QPOS设置失败， 请重试</string>
+    <string name="error_bond_failed">连接失败</string>
+    <string name="error_connect_server_error">无法连接服务器！</string>
+    <string name="error_get_pin_error">获取密码失败，请稍后重试</string>
+    <string name="error_get_tid_error">获取QPOS信息失败，请重启QPOS后重试</string>
+    <string name="error_getnum_cancel">操作被取消</string>
+    <string name="error_init_error">初始化服务器错误！</string>
+    <string name="error_init_timeout">初始化服务器超时！</string>
+    <string name="error_login_error">登录失败！</string>
+    <string name="error_login_invalid">非法登陆，请重新登录后重试！</string>
+    <string name="error_login_timeout">登录超时！</string>
+    <string name="error_no_connect">网络状况差，请检查网络！</string>
+    <string name="error_no_order">未查询到该订单数据！</string>
+    <string name="error_no_order_info">未查询到该订单信息！</string>
+    <string name="error_no_qpos_deceted">请把QPOS开机后重试</string>
+    <string name="error_no_useful_device">未检测到您绑定的QPOS，请重启QPOS后重试</string>
+    <string name="error_not_icc">芯片卡读取失败，请重试。</string>
+    <string name="error_not_support_bluetooth">您的手机不支持蓝牙</string>
+    <string name="error_operation_error">操作失败，请联系钱方客服</string>
+    <string name="error_order_init">订单初始化失败！</string>
+    <string name="error_order_not_complete">订单信息不完整，启动失败！</string>
+    <string name="error_paramete_not_complete">缺少必要参数，启动失败！</string>
+    <string name="error_qpos_error">刷卡器错误，请稍后再试！</string>
+    <string name="error_query_order">查询订单错误！</string>
+    <string name="error_reader_pause">操作被终止，请重新操作</string>
+    <string name="error_reader_timeout">刷卡超时,请重试</string>
+    <string name="error_return_cancel">查询已取消！</string>
+    <string name="error_return_http">连接失败，请重新登录后重试！</string>
+    <string name="error_return_timeout">连接超时，请重试！</string>
+    <string name="error_server_timeout">连接服务器超时,请重试</string>
+    <string name="error_session_timeout">在线状态已超时，请重新登录！</string>
+    <string name="error_trade_cancel">交易被取消</string>
+    <string name="error_trade_faild">交易失败</string>
+    <string name="error_trade_pay_fail">交易失败，请重试！</string>
+    <string name="error_user_cancel">取消交易！</string>
+    <string name="fail_import_tip">如持卡人已收到银行扣款短信，请联系钱方客服确认交易，请勿将商品交给持卡人以免引起损失</string>
+    <string name="getPicture">选择照片</string>
+    <string name="go_on_operate">否</string>
+    <string name="gotit">好的</string>
+    <string name="had_better_insert_card">有芯片的卡优先插卡交易，插卡交易更加安全有保障</string>
+    <string name="holder_sign">持卡人签名：</string>
+    <string name="i_know_it">我知道了</string>
+    <string name="ic_swipe_guide">如果是芯片卡，请从侧面卡槽插入</string>
+    <string name="ignore_receipt">不要收据</string>
+    <string name="input_ic_password">请输入密码</string>
+    <string name="insert_ic_card">请插入芯片卡</string>
+    <string name="interrupt_swipe">刷卡已终止，请查看IC卡是否提前拔出。</string>
+    <string name="is_searching">正在查询本次交易最终结果...</string>
+    <string name="loading_client_info">正在加载会员信息</string>
+    <string name="netError">网络未连接，请检查网络设置</string>
+    <string name="netException">网络异常</string>
+    <string name="net_question_tip">网络问题</string>
+    <string name="no_net_message">手机不能上网，请检查后重试</string>
+    <string name="no_sign">请用手指在空白处签名</string>
+    <string name="not_accordant">不一致</string>
+    <string name="not_good_network">您的网络环境不理想\n请换个网络环境好的地方试试</string>
+    <string name="ok">确定</string>
+    <string name="please_contact_qf">请联系客服 400-0360-280</string>
+    <string name="please_input_phone_number">请填写顾客手机号</string>
+    <string name="please_swipe_debit_card">请刷还款借记卡</string>
+    <string name="process_send_tip">发送中，请稍候...</string>
+    <string name="pwd_limit_tip">您尾号为%s的银行卡今天已经两次输错密码，如果再次输错，发卡行可能会冻结该卡</string>
+    <string name="qf_phone">400-0360-280</string>
+    <string name="qfpay_connect_help">连接须知:</string>
+    <string name="qfpay_connect_help_step1">1、请确保QPOS已开机</string>
+    <string name="qfpay_connect_help_step2">2、如果QPOS红灯亮起，请先充电</string>
+    <string name="qfpay_connect_help_step3">3、如未连接成功，请重启QPOS后重试</string>
+    <string name="qfpay_connecting_qpos">正在蓝牙连接QPOS</string>
+    <string name="qfpay_reader_tip">提示：请在交易完成后再拔出芯片卡</string>
+    <string name="qfpay_remove_ic_card">（请勿拔出芯片卡）</string>
+    <string name="re_sign">重新签名</string>
+    <string name="read_ic_card_tip">正在读取芯片卡，请稍候...</string>
+    <string name="reader_count_time">倒计时:%s</string>
+    <string name="reader_disconnect_retry_trade">QPOS已断开\n请连接QPOS后重新交易</string>
+    <string name="reader_fallback">提示：此卡需插卡才可进行交易</string>
+    <string name="reader_pause">交易被终止，请重新交易</string>
+    <string name="reader_reversal">网络异常,交易撤销中,请耐心等待,勿退出应用...</string>
+    <string name="receipt_send_fail">收据发送失败</string>
+    <string name="receipt_send_success">收据发送成功</string>
+    <string name="refresh_deal_result">请选择信号更好的地方\n刷新交易结果</string>
+    <string name="refund_loading">退款中，请稍候…</string>
+    <string name="relogin">重新登录</string>
+    <string name="repeal_finish">返回首页</string>
+    <string name="repeal_loading">撤销中，请稍候…</string>
+    <string name="repeal_result">撤销%s</string>
+    <string name="result_deal_amount">交易金额：%s元</string>
+    <string name="result_merchant_name">商户名称：%s</string>
+    <string name="result_repeal_amount">撤销金额：%s元</string>
+    <string name="retry">重试</string>
+    <string name="return_main">返回首页</string>
+    <string name="rightnow_search_result">刷新</string>
+    <string name="search_timeout_dialog_title">查询失败</string>
+    <string name="send_elec_receipt">发送短信收据</string>
+    <string name="send_receipt">发送收据</string>
+    <string name="serverError">对不起，访问服务器异常</string>
+    <string name="setNetwork">设置网络</string>
+    <string name="setting_qpos">正在设置QPOS，请稍等</string>
+    <string name="shop_deal_pic_wait">请稍候...</string>
+    <string name="sign_confirm_tip">请商家确认该签名与卡背面签名是否一致\n如因签名引发纠纷，该笔交易可能无法清算</string>
+    <string name="sign_too_simple">签名过于简单，请重签</string>
+    <string name="sing_name_orientation">本人确认本次交易,同意将其计入本卡账户</string>
+    <string name="swip_card">请刷卡</string>
+    <string name="swip_credit_card">请刷信用卡</string>
+    <string name="swip_or_insert_card">请刷卡或插卡</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <string name="text_cancel">取消</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_strings.xml -->
+    <eat-comment/>
+    <string name="text_collection">收款</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <string name="text_input_password">请输入支付密码</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_strings.xml -->
+    <eat-comment/>
+    <string name="text_loading">正在连接服务器...</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_custom_password_color.xml -->
+    <eat-comment/>
+    <string name="text_ok">确定</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_strings.xml -->
+    <eat-comment/>
+    <string name="text_swiping_card">刷卡</string>
+    <string name="text_swiping_card_pay">刷卡收款</string>
+    <string name="text_upload_certificate">上传凭证</string>
+    <string name="tip">提示</string>
+    <string name="trade_loading">交易中，请稍候…</string>
+    <string name="trade_result">本次交易最终结果</string>
+    <string name="trade_result_client_arrive">第%s次来店消费</string>
+    <string name="trade_result_client_name">会员姓名:%s</string>
+    <string name="trade_reversal">交易失败，已冲正</string>
+    <string name="try_again">再试一次</string>
+    <string name="uploadCertificate">上传凭证照片</string>
+    <string name="v2_send_receipt">发送收据</string>
+    <string name="wrong_mobile_num">请输入正确的手机号</string>
+    <string name="wx_scan_get_trade_tip">微信扫一扫，获取交易小票</string>
+    <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/values/qfpay_styles.xml -->
+    <eat-comment/>
+    <style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@anim/qfpay_custom_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/qfpay_custom_dialog_exit</item>
+    </style>
+    <style name="ListDialog" parent="MenuDialog">
+
+        <!-- pop_bg -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:windowAnimationStyle">@style/ListDialog.AnimationStyle</item> -->
+    </style>
+    <style name="MenuDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    <style name="QFBaseTheme" parent="QFSdkBaseTheme">
+
+    </style>
+    <style name="QFSdkBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/qfpay_blue</item>
+        <item name="colorPrimaryDark">@color/qf_blue_dark</item>
+        <item name="colorAccent">@color/qfpay_blue</item>
+    </style>
+    <style name="Theme.UMDialog" parent="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="myInDeterProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:progressDrawable">@drawable/qfpay_progress_horizontal</item>
+        <item name="android:indeterminate">true</item>
+        <!--<item name="android:indeterminateDrawable">@drawable/qfpay_progress_drawables</item>-->
+        <item name="android:maxHeight">8dip</item>
+    </style>
+</resources>

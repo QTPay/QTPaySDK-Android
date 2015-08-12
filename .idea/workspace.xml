@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3833047-db6b-4347-bcb2-f5c9060461f3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/generated/source/buildConfig/debug/qfpay/wxshop/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/generated/source/buildConfig/test/debug/qfpay/wxshop/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/generated/source/r/debug/android/support/v7/cardview/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/generated/source/r/debug/com/handmark/pulltorefresh/library/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/generated/source/r/debug/qfpay/wxshop/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/android/support/v7/cardview/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/android/support/v7/cardview/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/android/support/v7/cardview/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/android/support/v7/cardview/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/android/support/v7/cardview/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/android/support/v7/cardview/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/Utils/CacheData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/Utils/LocalData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/Utils/T.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/Utils/Toaster.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/Utils/Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/BaseActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity$SimpleAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/ConfigActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/CouponsActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/CouponsActivity$CouponAdapter$ViewHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/CouponsActivity$CouponAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/CouponsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/GoodsListActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/HomeActivity$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/HomeActivity$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/HomeActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/HomeActivity$MyFragmentAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/HomeActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/InputRechargeAmtActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/LoginActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/LoginActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/LoginActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/LoginActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/LoginActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/LoginActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/MainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/MainActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/MyAccountActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/MyAccountActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/PaymentResultActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/PaymentResultActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/PrePayActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/PrePayActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/SelectActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/SelectActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/SelectActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/SetConfigActivity$ConfigAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/SetConfigActivity$Holder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/activity/SetConfigActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/App$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/App$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/App$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/App$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/App$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/ConstValue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/Env.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/EnvConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/base/UserConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/fragment/HomeFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/fragment/MyInfoFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/example/qianfangdemo/view/ClearEditText.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$Decor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$ItemInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$LayoutParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$MyAccessibilityDelegate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$OnAdapterChangeListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$PagerObserver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$SavedState$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$SavedState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager$ViewPositionComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/fr/castorflex/android/verticalviewpager/VerticalViewPager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$anim.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/classes/debug/qfpay/wxshop/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/dex/debug/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/anim/slide_in_from_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/anim/slide_in_from_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/anim/slide_out_to_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/anim/slide_out_to_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-hdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-hdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-hdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-mdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-mdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-mdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-xhdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-xhdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable-xhdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable/indicator_bg_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/drawable/indicator_bg_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/layout/pull_to_refresh_header_horizontal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/layout/pull_to_refresh_header_vertical.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-he/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-pt-rBR/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values-zh/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aapt/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aidl/android/support/v4/media/MediaMetadataCompat.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aidl/android/support/v4/media/RatingCompat.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aidl/android/support/v4/media/session/MediaSessionCompat.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aidl/android/support/v4/media/session/PlaybackStateCompat.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/anim/slide_in_from_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/anim/slide_in_from_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/anim/slide_out_to_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/anim/slide_out_to_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-hdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-hdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-hdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-mdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-mdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-mdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-xhdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-xhdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable-xhdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable/indicator_bg_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/drawable/indicator_bg_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/layout/pull_to_refresh_header_horizontal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/layout/pull_to_refresh_header_vertical.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-he/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-pt-rBR/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values-zh/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/library/unspecified/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/libs/alipaysdk.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/libs/alipaysecsdk.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/libs/alipayutdid.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/libs/libammsdk.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/libs/volley-14_10_10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/res/drawable-xhdpi-v4/demo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/qtsdk/qTPaySDK/unspecified/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/incremental/aidl/test/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/incremental/mergeResources/test/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/manifests/test/debug/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysdk-28c1bc07fbb74733b316cf13046d9fcbb9a29361.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysecsdk-4c1b992ccf51482e2745465f0dbd4c58dd806c14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipayutdid-33a657129ccf8f3cf2c3e8bbab042347467fe889.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-1aaa13b9c2fb6d517d0ef03eb4a269641be7b131.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-47f93e522ae245b3e7f320de7f20f0ad68f2ae2d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-bd81e1f9368222699126980496331709105da226.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/gson-2.2.4-8ba6b7bf643ba8842d13b91761cca9d4b14abc00.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-b736c8915369c16f82e5daddddd16711cf30e0e3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/libammsdk-c7ba5f24ff3d537cb6851580334c4ba73fa1efa8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qrcore-974be410e204b2efb28b89d83776b3c2548577ff.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qtsdk-c5e32f212fd4e69acf0f8e5b69925a1b4a130b4b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-8c67d857fdae51c9f713f6bb064532ab471ffd71.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-20f9b222b36cdfe9b9f9e93c77c9915c9acc7a7f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/xUtils-2.6.13-b55e1f2626c366f10dac43e8b87e6717b49f27d2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/anim/qt_slide_in_from_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/anim/qt_slide_out_to_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/anim/slide_in_from_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/anim/slide_in_from_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/anim/slide_out_to_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/anim/slide_out_to_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-hdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-hdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-hdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-mdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-mdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-mdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/account_liquidation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/default_ptr_flip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/default_ptr_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/home1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/ic_card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/ic_login_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/ic_login_pw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/ic_login_pw_p.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/ic_login_user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/ic_login_user_p.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/icon_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/indicator_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/input_box_p_reg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/input_box_reg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/mine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/order_demo_1080p.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/programer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_alipay_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_balance_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_cod_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_coupon1_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_coupon2_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_coupon_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_icon_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_input_box.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_list_bg_p.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_qpos_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_record_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_tiick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/qt_weixin_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/record_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable-xhdpi-v4/weixin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/indicator_bg_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/indicator_bg_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/login_password.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/login_user.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/next_button_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/next_button_bg_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/next_button_bg_press.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/qt_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/qt_text_btn_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/selector_common.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/selector_input_reg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/selector_nextstep.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/selector_nextstep1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/drawable/text_btn_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_coupons.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_goodslist.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_home_page.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_input_recharge_amt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_payment_result.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_pre_pay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_select.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/activity_user_account.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/fagment_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/fragment_info.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/item_config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/item_config_detail.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/item_coupons.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/loading_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/my_dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/pull_to_refresh_header_horizontal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/pull_to_refresh_header_vertical.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/qt_activity_cashier.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/qt_activity_user_account.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/qt_adapter_payment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/qt_item_coupon_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/qt_loading_dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/layout/title_qt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/menu/menu_select.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-he/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-pt-rBR/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-w820dp-v13/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values-zh/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/debug/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/resources-debug-test.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/res/resources-debug.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/symbols/debug/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/outputs/apk/manifest-merger-debug-report.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/outputs/apk/qTPayDemo-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build/outputs/apk/qTPayDemo-debug.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/qTPayDemo-release.apk" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/base/App.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/base/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/base/ConstValue.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/base/ConstValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/GoodsListActivity.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/GoodsListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/MainActivity.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/SelectActivity.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/activity/SelectActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/Utils/Toaster.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/Utils/Toaster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/Utils/Utils.java" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/java/com/example/qianfangdemo/Utils/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/layout/activity_goodslist.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/layout/activity_goodslist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/layout/activity_select.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/layout/activity_select.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build.gradle" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/values/color.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/values/color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/qTPayDemo.iml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/qTPayDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/settings.gradle" afterPath="$PROJECT_DIR$/QTPayDemo/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/QTPayDemo/QTPayDemo/src/main/res/values/styles.xml" />
+    </list>
+    <ignored path="QTPaySDK-Android.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="QTPaySDK-Android" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../Omni-Notes" value="4285746474000" />
+        <entry key="$PROJECT_DIR$/../cheesesquare" value="4300193292000" />
+        <entry key="$PROJECT_DIR$/../fresco" value="14307104270000" />
+        <entry key="$PROJECT_DIR$/../philm" value="5737359900000" />
+      </map>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="987" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPayDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QTPaySDK-Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="possdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="gradle.compiler" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20131030/sdk" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.165" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidNativeRunConfigurationType" factoryName="Android Native">
+      <module name="" />
+      <option name="DEBUGGER_TYPE" value="LLDB" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
+      <module name="" />
+      <setting name="serverAddress" value="" />
+      <setting name="sdkPath" value="" />
+      <setting name="serverPort" value="" />
+      <setting name="vmArgs" value="" />
+      <setting name="warPath" value="" />
+      <setting name="sync" value="false" />
+      <setting name="disableUpdateCheck" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3833047-db6b-4347-bcb2-f5c9060461f3" name="Default" comment="" />
+      <created>1439378040541</created>
+      <option name="number" value="Default" />
+      <updated>1439378040541</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="987" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

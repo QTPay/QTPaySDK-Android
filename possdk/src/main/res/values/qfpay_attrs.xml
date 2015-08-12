@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 数字键盘 -->
+    <declare-styleable name="keyboard">
+        <attr name="xml" format="reference" />
+        <attr name="randomkeys" format="reference|boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="PasswordInputView">
+        <attr name="borderColor" format="integer" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="passwordLength" format="integer" />
+        <attr name="passwordColor" format="integer" />
+        <attr name="passwordWidth" format="dimension" />
+        <attr name="passwordRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>

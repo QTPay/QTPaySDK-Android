@@ -67,7 +67,7 @@ public class LoginActivity extends BaseActivity {
 
         setContentView(R.layout.activity_login);
         ViewUtils.inject(this);
-
+        checkMerchantBtnCanPress();
         dialog = new Dialog(LoginActivity.this, R.style.DialogStyle);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -147,7 +147,7 @@ public class LoginActivity extends BaseActivity {
     private void login() {
 
         if (!Utils.isCanConnectionNetWork(LoginActivity.this)) {
-            Toast.makeText(LoginActivity.this, "网络连接异常！", Toast.LENGTH_SHORT);
+            Toast.makeText(LoginActivity.this, "网络连接异常！", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -203,7 +203,6 @@ public class LoginActivity extends BaseActivity {
                         default:
                             break;
                     }
-
                     startActivity(new Intent(LoginActivity.this, SelectActivity.class));
                     finish();
 

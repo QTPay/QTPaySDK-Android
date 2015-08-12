@@ -4,17 +4,14 @@
     android:versionCode="4"
     android:versionName="1.0.4" >
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
 
@@ -72,6 +69,38 @@
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
 
+        <activity
+            android:name="com.example.qianfangdemo.activity.BindActivity"
+            android:label="绑定银行卡"
+            android:theme="@style/AppcompatTheme">
+        </activity>
+        <activity
+            android:name="com.example.qianfangdemo.activity.CardDetailActivity"
+            android:label="绑定银行卡"
+            android:theme="@style/AppcompatTheme">
+        </activity>
+        <activity
+            android:name="com.example.qianfangdemo.activity.ProvinceListAct"
+            android:label="选择开户行所属省"
+            android:theme="@style/AppcompatTheme">
+        </activity>
+        <activity
+            android:name="com.example.qianfangdemo.activity.CityListAct"
+            android:label="选择开户行所属市"
+            android:theme="@style/AppcompatTheme">
+        </activity>
+        <activity
+            android:name="com.example.qianfangdemo.activity.BankListAct"
+            android:label="选择开户行"
+            android:theme="@style/AppcompatTheme">
+        </activity>
+        <activity
+            android:name="com.example.qianfangdemo.activity.SubBankListAct"
+            android:label="选择开户行"
+            android:theme="@style/AppcompatTheme">
+        </activity>
+
+
         <!-- 前台sdk -->
         <activity
             android:name="com.qfpay.sdk.activity.CashierActivity"
@@ -97,10 +126,6 @@
             android:windowSoftInputMode="adjustResize|stateHidden" >
         </activity>
         <!-- alipay sdk end -->
-        <activity
-            android:name="com.example.qianfangdemo.activity.TestActivity"
-            android:label="@string/title_activity_test" >
-        </activity>
         <activity
             android:name="com.example.qianfangdemo.activity.SelectActivity"
             android:label="@string/title_activity_select"

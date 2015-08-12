@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">  
+   <item android:state_pressed="true"  
+        android:drawable="@color/main_white_press"/>
+   <item  android:drawable="@android:color/white"/>
+</selector><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/src/main/res/drawable/selector_input_amount_main.xml -->

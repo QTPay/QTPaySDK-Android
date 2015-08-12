@@ -18,7 +18,6 @@ public class BaseActivity extends Activity {
 
 	public static final int RECHARGE = 1;
 	public static final int PAY = 2;
-//	protected SharedPreferencesAccess sharedPreferencesAccess;
 	protected RequestQueue mQueue;
 	protected QTPayCommon mqt;
 
@@ -35,7 +34,6 @@ public class BaseActivity extends Activity {
 
 		mQueue = Volley.newRequestQueue(getApplicationContext());
 		mqt = QTPayCommon.getInstance(getApplicationContext());
-//		sharedPreferencesAccess = SharedPreferencesAccess.getInstance(this);
 	}
 
 	

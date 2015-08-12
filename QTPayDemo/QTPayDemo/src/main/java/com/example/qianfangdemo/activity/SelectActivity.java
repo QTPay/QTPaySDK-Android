@@ -33,6 +33,13 @@ public class SelectActivity extends Activity {
                 startActivity(new Intent(SelectActivity.this, MainActivity.class));
             }
         });
+
+        findViewById(R.id.bindcard).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SelectActivity.this , BindActivity.class));
+            }
+        });
     }
 
 
