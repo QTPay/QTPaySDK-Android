@@ -1,3 +1,0 @@
-<bitmap xmlns:android="http://schemas.android.com/apk/res/android"  
-android:src="@drawable/qfpay_price_bg"
-android:tileMode="repeat" /> <!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/possdk/src/main/res/drawable/qfpay_amount_screen_backgroud.xml -->

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<selector xmlns:android="http://schemas.android.com/apk/res/android">  
-   <item android:state_pressed="true"  
-        android:drawable="@drawable/qt_list_bg_p"/>
-   
-   <item android:state_focused="true"  
-        android:drawable="@drawable/qt_list_bg_p"/>
-</selector><!-- From: file:/Users/qfpay/Workspace/QTPaySDK-Android/QTPayDemo/QTPayDemo/src/main/res/drawable/qt_selector.xml -->

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="volley-14_10_10">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/QTPayDemo/libs/volley-14_10_10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/possdk/libs/volley-14_10_10.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

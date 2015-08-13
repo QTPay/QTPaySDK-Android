@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="possdk_v0.3">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/QTPayDemo/libs/possdk_v0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/possdk/libs/possdk_v0.3.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
