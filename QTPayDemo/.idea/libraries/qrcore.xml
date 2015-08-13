@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="qrcore">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/QTPayDemo/libs/qrcore.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

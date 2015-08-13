@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="alipaysdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/QTPayDemo/libs/alipaysdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

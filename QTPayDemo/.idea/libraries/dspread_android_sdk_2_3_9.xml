@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="dspread_android_sdk_2.3.9">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/possdk/libs/dspread_android_sdk_2.3.9.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

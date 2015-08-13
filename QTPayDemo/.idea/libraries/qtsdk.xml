@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="qtsdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/QTPayDemo/libs/qtsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
