@@ -2,6 +2,20 @@
 <items version="2" >
 
     <item
+        jar="/Users/qfpay/Downloads/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-785f3d9687984def4e68409f4c13e4bb1f4e5789.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysecsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysecsdk-4513225e3de3fd9b62b00e5e67772eeb00ee572e.jar" />
+    </item>
+    <item
         jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysdk.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -23,6 +37,27 @@
         <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-2d43a7c78be2e8a4fadf7e43c0956a97965e97a3.jar" />
     </item>
     <item
+        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/libs/dspread_android_sdk_2.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c0a9fbb9fb36a7bbc5e937132159f96f227e03c">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/dspread_android_sdk_2.3.9-fb44907ba556a61add318279e55d535bd4a1ef18.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/library-2.4.0-fe35cc49a5de063909109821c50552b9f81ada41.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eb488e814fda92cdb6de2307ffdf9daf7895ff86">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-45070306d982098d5ac8ce90bd038af18cd5edfe.jar" />
+    </item>
+    <item
         jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -35,6 +70,20 @@
         revision="22.0.1"
         sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
         <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/qrcore-0d2e7d94b7e508be1792c91a6cb1b8614478b481.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/volley-14_10_10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="37b90476f52aeaa60faba5c2af239ea4e38ef1ab">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-a0d2fce20d8bcad841b6c42edb059ee2e142dbe6.jar" />
+    </item>
+    <item
+        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/gson-2.3-2b7f23a0bda5567e86fbb2e775ee4ba82c40f743.jar" />
     </item>
     <item
         jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
@@ -72,55 +121,6 @@
         <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-2e86d20177122903fa6e299e71a276d8ec55154d.jar" />
     </item>
     <item
-        jar="/Users/qfpay/Downloads/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-785f3d9687984def4e68409f4c13e4bb1f4e5789.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/alipaysecsdk.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7413c074c9edf523050267b93d0875151dc4b644">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/alipaysecsdk-4513225e3de3fd9b62b00e5e67772eeb00ee572e.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/libs/dspread_android_sdk_2.3.9.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c0a9fbb9fb36a7bbc5e937132159f96f227e03c">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/dspread_android_sdk_2.3.9-fb44907ba556a61add318279e55d535bd4a1ef18.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/library-2.4.0-fe35cc49a5de063909109821c50552b9f81ada41.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/possdk/unspecified/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8f2effb41b0567b7e87cfd783d3dd0811c10346e">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-45070306d982098d5ac8ce90bd038af18cd5edfe.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/volley-14_10_10.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="37b90476f52aeaa60faba5c2af239ea4e38ef1ab">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/volley-14_10_10-a0d2fce20d8bcad841b6c42edb059ee2e142dbe6.jar" />
-    </item>
-    <item
-        jar="/Users/qfpay/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/gson-2.3-2b7f23a0bda5567e86fbb2e775ee4ba82c40f743.jar" />
-    </item>
-    <item
         jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/libs/xUtils-2.6.13.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -131,7 +131,7 @@
         jar="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/exploded-aar/QTPayDemo/library/unspecified/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="529e7785417f9bdcebf79bf480acd5f1c1c7db89">
+        sha1="168868739337d93d385d6e8aed7e45221111a0d2">
         <dex dex="/Users/qfpay/work/QTPaySDK-Android/QTPayDemo/QTPayDemo/build/intermediates/pre-dexed/debug/classes-56af68276eac7aba2ee1097d9827b650660a1b3d.jar" />
     </item>
     <item

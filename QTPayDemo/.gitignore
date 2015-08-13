@@ -4,3 +4,5 @@ build
 possdk/build
 library/build
 QTPayDemo/build
+.gradle
+.idea
