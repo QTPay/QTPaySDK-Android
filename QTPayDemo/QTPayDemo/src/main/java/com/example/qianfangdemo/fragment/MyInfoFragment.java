@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.qianfangdemo.activity.HomeActivity;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 
 public class MyInfoFragment extends Fragment {
 
@@ -19,13 +17,17 @@ public class MyInfoFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_info, container, false);
-		ViewUtils.inject(this, view);
 		mActivity = MyInfoFragment.this.getActivity();
+		view.findViewById(R.id.qt_create_order_btns).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				onCreateOrderClicked();
+			}
+		});
 		return view;
 	}
 
-	@OnClick(R.id.qt_create_order_btns)
-	private void onCreateOrderClicked(View view) {
+	private void onCreateOrderClicked() {
 		((HomeActivity) mActivity).getSettingConfig();
 	}
 

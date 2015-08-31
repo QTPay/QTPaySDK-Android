@@ -1,8 +1,5 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.List;
-
-import qfpay.wxshop.R;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -29,6 +26,10 @@ import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.EnvConfig;
 import com.example.qianfangdemo.base.UserConfig;
 import com.qfpay.sdk.utils.T;
+
+import java.util.List;
+
+import qfpay.wxshop.R;
 
 public class ConfigActivity extends BaseActivity implements OnItemClickListener, OnClickListener,
 		OnItemLongClickListener {

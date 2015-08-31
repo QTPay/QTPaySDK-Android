@@ -24,9 +24,6 @@ import com.example.qianfangdemo.Utils.Utils;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.ConstValue;
 import com.example.qianfangdemo.view.ClearEditText;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.sdk.common.QTEnviroment;
 
 import org.json.JSONObject;
@@ -36,22 +33,17 @@ import java.util.Map;
 
 import qfpay.wxshop.R;
 
-public class LoginActivity extends BaseActivity {
+public class LoginActivity extends BaseActivity implements View.OnClickListener{
 
-    @ViewInject(R.id.username)
     private ClearEditText phoneNumber;
-    @ViewInject(R.id.login)
     private Button button;
 
-    @ViewInject(R.id.setting)
     private TextView setting;
 
     private boolean isLoading;
 
-    @ViewInject(R.id.version)
     private TextView version;
 
-    @ViewInject(R.id.qt_title)
     private  View title;
 
     private Dialog dialog;
@@ -66,7 +58,15 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_login);
-        ViewUtils.inject(this);
+        phoneNumber = (ClearEditText) findViewById(R.id.username);
+        button = (Button) findViewById(R.id.login);
+        setting = (TextView) findViewById(R.id.setting);
+        version = (TextView) findViewById(R.id.version);
+        title = findViewById(R.id.qt_title);
+
+        findViewById(R.id.login).setOnClickListener(this);
+        findViewById(R.id.setting).setOnClickListener(this);
+
         checkMerchantBtnCanPress();
         dialog = new Dialog(LoginActivity.this, R.style.DialogStyle);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -130,16 +130,6 @@ public class LoginActivity extends BaseActivity {
         }
         version.setText("V " + versionNo);
         T.i(App.getCurrentUserConfig().toString());
-    }
-
-    @OnClick(R.id.login)
-    public void onLoginClick(View view) {
-        login();
-    }
-
-    @OnClick(R.id.setting)
-    public void onSetClick(View view) {
-        startActivity(new Intent(this, SetConfigActivity.class));
     }
 
 
@@ -249,4 +239,15 @@ public class LoginActivity extends BaseActivity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.login:
+                login();
+                break;
+            case R.id.setting:
+                startActivity(new Intent(this, SetConfigActivity.class));
+                break;
+        }
+    }
 }

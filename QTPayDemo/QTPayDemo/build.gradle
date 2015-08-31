@@ -12,10 +12,28 @@ android {
         versionName "1.0.7"
     }
 
-    buildTypes {
-
+    signingConfigs {
+        debug {
+            storeFile file("key")
+            storePassword "123456"
+            keyAlias "key"
+            keyPassword "123456"
+        }
         release {
-            minifyEnabled false
+            storeFile file("key")
+            storePassword "123456"
+            keyAlias "key"
+            keyPassword "123456"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -39,4 +57,5 @@ dependencies {
     compile files('libs/volley-14_10_10.jar')
     compile files('libs/xUtils-2.6.13.jar')
     compile files('libs/possdk_v0.3.jar')
+    compile files('libs/dspread_android_sdk_2.3.9.jar')
 }

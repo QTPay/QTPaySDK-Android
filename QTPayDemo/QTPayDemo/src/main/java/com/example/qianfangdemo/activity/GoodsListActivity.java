@@ -8,7 +8,7 @@ import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
+import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -19,15 +19,11 @@ import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.example.qianfangdemo.Utils.T;
-import com.example.qianfangdemo.Utils.Toaster;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.ConstValue;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.qpossdk.entity.PayOrderInfo;
 import com.qfpay.qpossdk.pay.QfPayCallBack;
 import com.qfpay.qpossdk.pay.QfPaySdk;
-import com.qfpay.sdk.entity.Good;
 import com.qfpay.sdk.utils.Utils;
 
 import org.json.JSONArray;
@@ -35,11 +31,10 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Logger;
 
 import qfpay.wxshop.R;
 
-public class GoodsListActivity extends BaseActivity {
+public class GoodsListActivity extends BaseActivity implements View.OnClickListener{
 
     private static final String TAG = "GoodsListActivity";
 
@@ -61,9 +56,14 @@ public class GoodsListActivity extends BaseActivity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setContentView(R.layout.activity_goodslist);
-		ViewUtils.inject(this);
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_goodslist);
+
+		findViewById(R.id.order_one).setOnClickListener(this);
+		findViewById(R.id.order_two).setOnClickListener(this);
+		findViewById(R.id.order_three).setOnClickListener(this);
+		findViewById(R.id.order_qpossdk).setOnClickListener(this);
+
 	}
 	
 	@Override
@@ -77,31 +77,26 @@ public class GoodsListActivity extends BaseActivity {
 		super.onResume();
 	}
 	
-	
-	
-	@OnClick(R.id.order_one)
-	private void onCreateOrderClick(View view) {
+
+	private void onCreateOrderClick() {
 		goodsname = "奥迪A6";
 		goodsamt = "30";
         showAmtDialog(1);
 	}
 
-	@OnClick(R.id.order_two)
-	private void onRechargeClick(View view) {
+	private void onRechargeClick() {
 		goodsname = "特斯拉";
 		goodsamt = "50";
         showAmtDialog(2);
 	}
 
-	@OnClick(R.id.order_three)
-	private void onPrePayClick(View view) {
+	private void onPrePayClick() {
 		goodsname = "老年代步车";
 		goodsamt = "10";
         showAmtDialog(3);
 	}
 
-    @OnClick(R.id.order_qpossdk)
-    private void onSDKPayClick(View view) {
+    private void onSDKPayClick() {
         goodsname = "老年代步车SDK";
         goodsamt = "10";
         showAmtDialog(CALL_POS_SDK);
@@ -121,6 +116,7 @@ public class GoodsListActivity extends BaseActivity {
         amountEditText.setSelection(goodsamt.length());
         if(amtDialog == null) {
             amtDialog = new Dialog(GoodsListActivity.this);
+			amtDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         }
         amtDialog.show();
         amtDialog.setContentView(view);
@@ -395,6 +391,8 @@ public class GoodsListActivity extends BaseActivity {
         if(!TextUtils.isEmpty(qf_token)) {
             bundle.putString("qf_token", qf_token);
         }
+
+		bundle.putString("token", ConstValue.userToken);
 //		bundle.putString("sign", sign);
 
         T.i("qf_token :" + qf_token);
@@ -503,6 +501,23 @@ public class GoodsListActivity extends BaseActivity {
 
 		// 调用sdk进行支付
         QfPaySdk.getInstance().payOrder(GoodsListActivity.this, orderInfo, payCallBack);
-    }
+	}
 
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()){
+			case R.id.order_one:
+				onCreateOrderClick();
+				break;
+			case R.id.order_two:
+				onRechargeClick();
+				break;
+			case R.id.order_three:
+				onPrePayClick();
+				break;
+			case R.id.order_qpossdk:
+				onSDKPayClick();
+				break;
+		}
+	}
 }

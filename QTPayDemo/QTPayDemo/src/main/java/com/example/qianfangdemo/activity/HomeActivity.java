@@ -1,10 +1,5 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.List;
-import java.util.Map;
-
-import fr.castorflex.android.verticalviewpager.VerticalViewPager;
-import qfpay.wxshop.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -28,8 +23,6 @@ import com.example.qianfangdemo.Utils.Utils;
 import com.example.qianfangdemo.base.ConstValue;
 import com.example.qianfangdemo.fragment.HomeFragment;
 import com.example.qianfangdemo.fragment.MyInfoFragment;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
 import com.qfpay.sdk.activity.CashierActivity;
 import com.qfpay.sdk.common.QTCallBack;
 import com.qfpay.sdk.common.QTConst;
@@ -38,9 +31,14 @@ import com.qfpay.sdk.entity.ExtraInfo;
 import com.qfpay.sdk.entity.Good;
 import com.qfpay.sdk.entity.QTHolder;
 
-public class HomeActivity extends FragmentActivity {
+import java.util.List;
+import java.util.Map;
 
-	@ViewInject(R.id.pager)
+import fr.castorflex.android.verticalviewpager.VerticalViewPager;
+import qfpay.wxshop.R;
+
+public class HomeActivity extends FragmentActivity{
+
 	private VerticalViewPager viewPager;
 
 	private Dialog dialog;
@@ -68,7 +66,6 @@ public class HomeActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home_page);
-		ViewUtils.inject(this);
 
 		mQueue = Volley.newRequestQueue(getApplicationContext());
 		mqt = QTPayCommon.getInstance(getApplicationContext());

@@ -18,4 +18,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_select">SelectActivity</string>
 
+
+    <string name="dialog_title">提示</string>
+
 </resources>

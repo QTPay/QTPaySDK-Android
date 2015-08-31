@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.qianfangdemo.Utils.Toaster;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.sdk.common.QTCallBack;
 import com.qfpay.sdk.common.WeChatQT;
 
@@ -25,7 +23,21 @@ public class PaymentResultActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_payment_result);
 
-		ViewUtils.inject(this);
+
+		findViewById(R.id.btn_share_pengyouquan).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				onShareBtnClick();
+			}
+		});
+
+		findViewById(R.id.btn_share_weixin).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				onShareWeiXinBtnClick();
+			}
+		});
+
 
         shareLayout = findViewById(R.id.sharelayout);
 		getShareInfo();
@@ -68,10 +80,7 @@ public class PaymentResultActivity extends BaseActivity {
 	}
 
 
-
-
-	@OnClick(R.id.btn_share_pengyouquan)
-	public void onShareBtnClick(View view) {
+	public void onShareBtnClick() {
 
 		if (!canShare) {
 			return;
@@ -87,8 +96,7 @@ public class PaymentResultActivity extends BaseActivity {
 		}
 	}
 
-	@OnClick(R.id.btn_share_weixin)
-	public void onShareWeiXinBtnClick(View view) {
+	public void onShareWeiXinBtnClick() {
 		if (!canShare) {
 			return;
 		}

@@ -1,12 +1,5 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.json.JSONObject;
-
-import qfpay.wxshop.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,12 +16,18 @@ import com.example.qianfangdemo.Utils.Toaster;
 import com.example.qianfangdemo.Utils.Utils;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.ConstValue;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.sdk.common.QTConst;
 import com.qfpay.sdk.entity.ExtraInfo;
 import com.qfpay.sdk.entity.Good;
 import com.qfpay.sdk.entity.QTHolder;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import qfpay.wxshop.R;
 
 public class MainActivity extends BaseActivity {
 
@@ -40,23 +39,36 @@ public class MainActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		ViewUtils.inject(this);
 
-	}
 
-	@OnClick(R.id.order_one)
-	private void onCreateOrderClick(View view) {
-		itemClick(1);
-	}
+		findViewById(R.id.order_one).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				itemClick(1);
+			}
+		});
 
-	@OnClick(R.id.order_two)
-	private void onRechargeClick(View view) {
-		itemClick(2);
-	}
+		findViewById(R.id.order_two).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				itemClick(2);
+			}
+		});
 
-	@OnClick(R.id.order_three)
-	private void onPrePayClick(View view) {
-		itemClick(3);
+		findViewById(R.id.order_three).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				itemClick(200);
+			}
+		});
+
+		findViewById(R.id.my_account).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, MyAccountActivity.class));
+			}
+		});
+
 	}
 
 	private void itemClick(int amt) {
@@ -151,11 +163,6 @@ public class MainActivity extends BaseActivity {
 		intent.putExtra(QTConst.EXTRO, new QTHolder(QTConst.ServerType_PAY, Integer.valueOf(amt), goods, extraInfo,
 				ConstValue.mobile));
 		startActivity(intent);
-	}
-
-	@OnClick(R.id.my_account)
-	private void onAccountClick(View view) {
-		startActivity(new Intent(MainActivity.this, MyAccountActivity.class));
 	}
 
 }

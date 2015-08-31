@@ -1,41 +1,33 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.Hashtable;
-import java.util.Map;
-
-import qfpay.wxshop.R;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.widget.ImageView;
 
-import com.example.qianfangdemo.Utils.LocalData;
-import com.example.qianfangdemo.Utils.T;
-import com.example.qianfangdemo.Utils.Toaster;
-import com.example.qianfangdemo.base.ConstValue;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
 import com.qfpay.sdk.common.QTCallBack;
+
+import java.util.Hashtable;
+import java.util.Map;
+
+import qfpay.wxshop.R;
 
 public class PrePayActivity extends BaseActivity {
 
 	private int QR_WIDTH = 500;
 	private int QR_HEIGHT = 500;
 
-	@ViewInject(R.id.iv_qrcode)
 	private ImageView mImage;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pre_pay);
-		ViewUtils.inject(this);
-
+		mImage = (ImageView) findViewById(R.id.iv_qrcode);
 		mqt.getShareIcon1("https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQHz7zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL21IVzZqLWJsekR5MVE2dGJMVnQ1AAIENXLZVAMECAcAAA==", new QTCallBack() {
 
 			@Override

@@ -317,6 +317,7 @@
                                     android:id="@+id/tv_has_coupon_qt"
                                     style="@style/QTSpecialText"
                                     android:layout_marginLeft="20dp"
+                                    android:singleLine="true"
                                     android:visibility="visible" />
                             </LinearLayout>
 
@@ -332,6 +333,7 @@
                                     android:layout_marginRight="20dp" />
 
                                 <ImageView
+                                    android:id="@+id/img_coupon_arrow"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginRight="20dp"

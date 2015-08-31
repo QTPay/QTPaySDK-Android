@@ -5,13 +5,9 @@ import java.util.Map;
 import com.example.qianfangdemo.Utils.CacheData;
 import com.example.qianfangdemo.Utils.Toaster;
 import com.example.qianfangdemo.Utils.Utils;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.sdk.common.QTCallBack;
 import com.qfpay.sdk.common.QTConst;
 import com.qfpay.sdk.entity.CustomerInfo;
-import com.qfpay.sdk.utils.T;
 
 import qfpay.wxshop.R;
 import android.content.Intent;
@@ -19,11 +15,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MyAccountActivity extends BaseActivity {
+public class MyAccountActivity extends BaseActivity implements View.OnClickListener{
 
-	@ViewInject(R.id.account_coupons)
 	private TextView mCouponNums;
-	@ViewInject(R.id.account_balances)
 	private TextView mBalanceAmt;
 
 	private CustomerInfo mCustomerInfo;
@@ -34,8 +28,12 @@ public class MyAccountActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_user_account);
+		mCouponNums = (TextView) findViewById(R.id.account_coupons);
+		mBalanceAmt = (TextView) findViewById(R.id.account_balances);
 
-		ViewUtils.inject(this);
+		findViewById(R.id.back).setOnClickListener(this);
+		findViewById(R.id.rl_account_coupons).setOnClickListener(this);
+		findViewById(R.id.rl_account_recharge_balances).setOnClickListener(this);
 	}
 
 	@Override
@@ -44,20 +42,13 @@ public class MyAccountActivity extends BaseActivity {
 		super.onResume();
 	}
 
-	@OnClick(R.id.back)
-	private void onBackClick(View view) {
-		finish();
-	}
-
-	@OnClick(R.id.rl_account_coupons)
-	private void onCouponsLayoutClick(View view) {
+	private void onCouponsLayoutClick() {
 		Intent intent = new Intent(MyAccountActivity.this, CouponsActivity.class);
 		intent.putExtra("couponTag", couponKey);
 		startActivity(intent);
 	}
 
-	@OnClick(R.id.rl_account_recharge_balances)
-	private void onBalanceRechargeClick(View view) {
+	private void onBalanceRechargeClick() {
 		startActivity(new Intent(MyAccountActivity.this, InputRechargeAmtActivity.class));
 	}
 
@@ -89,5 +80,20 @@ public class MyAccountActivity extends BaseActivity {
 	private void displayCustomerInfo() {
 		mBalanceAmt.setText("￥" + Utils.num2String(mCustomerInfo.getBalance()) + "元");
 		mCouponNums.setText(mCustomerInfo.getCoupons().size() + "张");
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()){
+			case R.id.back:
+				finish();
+				break;
+			case R.id.rl_account_coupons:
+				onCouponsLayoutClick();
+				break;
+			case R.id.rl_account_recharge_balances:
+				onBalanceRechargeClick();
+				break;
+		}
 	}
 }

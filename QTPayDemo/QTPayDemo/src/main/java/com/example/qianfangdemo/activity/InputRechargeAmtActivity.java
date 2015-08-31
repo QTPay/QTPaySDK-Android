@@ -1,19 +1,11 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONObject;
-
-import qfpay.wxshop.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -35,10 +27,6 @@ import com.example.qianfangdemo.Utils.Utils;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.ConstValue;
 import com.example.qianfangdemo.view.ClearEditText;
-import com.google.gson.Gson;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.sdk.activity.CashierActivity;
 import com.qfpay.sdk.common.QTCallBack;
 import com.qfpay.sdk.common.QTConst;
@@ -46,12 +34,19 @@ import com.qfpay.sdk.entity.ExtraInfo;
 import com.qfpay.sdk.entity.Good;
 import com.qfpay.sdk.entity.QTHolder;
 
-public class InputRechargeAmtActivity extends BaseActivity {
+import org.json.JSONObject;
 
-	@ViewInject(R.id.input_recharge)
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import qfpay.wxshop.R;
+
+public class InputRechargeAmtActivity extends BaseActivity implements View.OnClickListener{
+
 	private ClearEditText editRecharge;
 
-	@ViewInject(R.id.recharge)
 	private Button btnRecharge;
 
 	private String mAmt;
@@ -66,8 +61,9 @@ public class InputRechargeAmtActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_input_recharge_amt);
-		ViewUtils.inject(this);
 
+		editRecharge = (ClearEditText) findViewById(R.id.input_recharge);
+		btnRecharge = (Button) findViewById(R.id.recharge);
 		dialog = new Dialog(InputRechargeAmtActivity.this, R.style.DialogStyle);
 		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		dialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -88,11 +84,9 @@ public class InputRechargeAmtActivity extends BaseActivity {
 			}
 		};
 		editRecharge.addTextChangedListener(watcher);
-	}
 
-	@OnClick(R.id.back)
-	private void onBackBtnClick(View view) {
-		finish();
+		findViewById(R.id.back).setOnClickListener(this);
+		btnRecharge.setOnClickListener(this);
 	}
 
 	/**
@@ -145,8 +139,7 @@ public class InputRechargeAmtActivity extends BaseActivity {
 	}
 
 	// 点击余额充值按钮
-	@OnClick(R.id.recharge)
-	public void onRechargeBtnClick(View view) {
+	public void onRechargeBtnClick() {
 		if (!btnRecharge.isSelected()) {
 			return;
 		}
@@ -304,4 +297,15 @@ public class InputRechargeAmtActivity extends BaseActivity {
 		super.onActivityResult(requestCode, resultCode, data);
 	}
 
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()){
+			case R.id.back:
+				finish();
+				break;
+			case R.id.recharge:
+				onRechargeBtnClick();
+				break;
+		}
+	}
 }

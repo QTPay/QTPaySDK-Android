@@ -1,8 +1,5 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.List;
-
-import qfpay.wxshop.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,14 +10,14 @@ import android.widget.TextView;
 
 import com.example.qianfangdemo.Utils.CacheData;
 import com.example.qianfangdemo.Utils.Utils;
-import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.view.annotation.ViewInject;
-import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.qfpay.sdk.entity.Coupon;
+
+import java.util.List;
+
+import qfpay.wxshop.R;
 
 public class CouponsActivity extends BaseActivity {
 
-	@ViewInject(R.id.coupons_list)
 	private ListView mCouponList;
 
 	private String couponKey;
@@ -33,16 +30,17 @@ public class CouponsActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_coupons);
 
-		ViewUtils.inject(this);
+		mCouponList = (ListView) findViewById(R.id.coupons_list);
 
 		couponKey = getIntent().getStringExtra("couponTag");
 		mCoupons = (List<Coupon>) CacheData.getInstance().getData(couponKey, false);
 		mCouponList.setAdapter(new CouponAdapter());
-	}
-
-	@OnClick(R.id.back)
-	private void onBackButtonClick(View view) {
-		finish();
+		findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 
 	private class CouponAdapter extends BaseAdapter {
