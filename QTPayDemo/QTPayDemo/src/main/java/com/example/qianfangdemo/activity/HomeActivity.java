@@ -66,7 +66,7 @@ public class HomeActivity extends FragmentActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home_page);
-
+		viewPager = (VerticalViewPager) findViewById(R.id.pager);
 		mQueue = Volley.newRequestQueue(getApplicationContext());
 		mqt = QTPayCommon.getInstance(getApplicationContext());
 
