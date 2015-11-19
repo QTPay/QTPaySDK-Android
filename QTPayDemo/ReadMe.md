@@ -204,7 +204,7 @@ extraInfo.add(mobile);
 QTHolder holder = new QTHolder(QTConst.ServerType_PAY, totalAmt, goods, extraInfo,mobile);
 Intent intent = new Intent(HomeActivity.this, CashierActivity.class);
 intent.putExtra(QTConst.EXTRO,holder));
-// startActivityForResult(intent, ConstValue.REQUEST_FOR_CASHIER);
+startActivityForResult(intent, ConstValue.REQUEST_FOR_CASHIER);
 overridePendingTransition(R.anim.qt_slide_in_from_bottom, R.anim.qt_slide_out_to_top);
 
 ```
