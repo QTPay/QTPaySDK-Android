@@ -12,6 +12,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.text.TextUtils;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -27,6 +28,8 @@ import com.qfpay.sdk.activity.CashierActivity;
 import com.qfpay.sdk.common.QTCallBack;
 import com.qfpay.sdk.common.QTConst;
 import com.qfpay.sdk.common.QTPayCommon;
+import com.qfpay.sdk.entity.Coupon;
+import com.qfpay.sdk.entity.CustomerInfo;
 import com.qfpay.sdk.entity.ExtraInfo;
 import com.qfpay.sdk.entity.Good;
 import com.qfpay.sdk.entity.QTHolder;
@@ -53,6 +56,8 @@ public class HomeActivity extends FragmentActivity{
 	protected RequestQueue mQueue;
 	protected QTPayCommon mqt;
 
+
+
 	/**
 	 * 外部订单号
 	 */
@@ -61,12 +66,20 @@ public class HomeActivity extends FragmentActivity{
 	private String orderToken;
 
 	private int specialAmt;
+	QTHolder holder;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home_page);
+
 		viewPager = (VerticalViewPager) findViewById(R.id.pager);
+		findViewById(R.id.my_account).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				onAccountClick();
+			}
+		});
 		mQueue = Volley.newRequestQueue(getApplicationContext());
 		mqt = QTPayCommon.getInstance(getApplicationContext());
 
@@ -76,6 +89,8 @@ public class HomeActivity extends FragmentActivity{
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		dialog.setContentView(R.layout.my_dialog);
 		dialog.setCancelable(false);
+
+		holder = (QTHolder) getIntent().getSerializableExtra(QTConst.EXTRO);
 
 		initView();
 
@@ -94,6 +109,41 @@ public class HomeActivity extends FragmentActivity{
 			return;
 		}
 		this.orderToken = ConstValue.orderToken;
+
+	}
+
+	private void onAccountClick() {
+
+		mqt.getCustomerInfo(specialAmt + "", new int[]{QTConst.CustomerInfo_Coupon}, new QTCallBack() {
+			@Override
+			public void onSuccess(Map<String, Object> dataInfo) {
+				if (dataInfo.containsKey("customer_info")) {
+					CustomerInfo mCustomerInfo = (CustomerInfo) dataInfo.get("customer_info");
+					final List<Coupon> coupons = mCustomerInfo.getCoupons();
+					String[] couponTitle = new String[coupons.size()];
+					for (int i = 0; i< coupons.size(); i++){
+						couponTitle[i] = coupons.get(i).getContent()+ "  金额 :" + coupons.get(i).getAmt();
+					}
+
+					AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+					builder.setTitle("选择优惠券");
+					builder.setItems(couponTitle, new OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							holder.setCoupon_code(coupons.get(which).getCoupon_code());
+						}
+					});
+					AlertDialog dialog = builder.create();
+					dialog.show();
+				}
+
+			}
+
+			@Override
+			public void onError(Map<String, String> errorInfo) {
+
+			}
+		});
 
 	}
 
@@ -177,7 +227,7 @@ public class HomeActivity extends FragmentActivity{
 
 	public void JumpTo() {
 		Intent intent = new Intent(HomeActivity.this, CashierActivity.class);
-		intent.putExtras(getIntent());
+		intent.putExtra(QTConst.EXTRO,holder);
 		startActivityForResult(intent, ConstValue.REQUEST_FOR_CASHIER);
 		overridePendingTransition(R.anim.qt_slide_in_from_bottom, R.anim.qt_slide_out_to_top);
 	}

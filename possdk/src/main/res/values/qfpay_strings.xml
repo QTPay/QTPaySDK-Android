@@ -139,15 +139,69 @@
     <string name="text_swiping_card_pay">刷卡收款</string>
 
     <!-- QfTradeCloudActivity文案 -->
-    <string name="text_collection">收款</string>
+    <string name="text_collection">收款</string>r
     <string name="text_swiping_card">刷卡</string>
     <string name="text_loading">正在连接服务器...</string>
+    <string name="text_receiving">收款方</string>
+    <string name="text_orderno">订单号</string>
+    <string name="text_connect_cloud">正在连接交易云...</string>
+    <string name="text_order_query">正在查询订单...</string>
+    <string name="text_order_pay">正在支付，请稍后...</string>
+    <string name="text_order_repeal">正在撤销，请稍后...</string>
 
     <!-- 发送短信收据 -->
     <string name="process_send_tip">发送中，请稍候...</string>
     <string name="receipt_send_success">收据发送成功</string>
     <string name="receipt_send_fail">收据发送失败</string>
     <string name="cancel_search_device">取消设备扫描？</string>
+
+    <!-- TradeDetailActivity -->
+    <string name="text_trade_detail">交易详情</string>
+    <string name="text_trade_repeal">撤销交易</string>
+    <string name="ali_weixin_account">账户</string>
+    <string name="tradedetail_fail">详情</string>
+    <string name="consume">消费</string>
+    <string name="consume_repeal">消费撤销</string>
+    <string name="loading_send_receipt">正在发送收据…</string>
+    <string name="send_receipt_success">发送收据成功</string>
+    <string name="repeal_overtime">该笔交易已经清算，请联系客服（400-0360-280）协助撤销</string>
+    <string name="send_receipt_failed">收据发送失败</string>
+    <string name="server_timeout">连接服务器超时,请重试</string>
+    <string name="sorry_cannot_send_receipt">您今天已经不能再重发收据了!</string>
+    <string name="deal_date">时间:</string>
+    <string name="deal_type">类型:</string>
+    <string name="deal_number">编号:</string>
+    <string name="card_number">卡号:</string>
+    <string name="text_query_order">查询订单中...</string>
+    <string name="text_query_error">查询失败，点击页面重试</string>
+
+    <!-- RepealActivity -->
+    <string name="repeal_check_title">撤销授权</string>
+    <string name="repeal_check">授权</string>
+    <string name="forget_pwd_tip">忘记密码？</string>
+    <string name="refund_recheck">请输入登录密码确保交易安全：</string>
+    <string name="check_loading">正在授权…</string>
+    <string name="testaccount_not_support_repeal">体验账号不支持撤销</string>
+    <string name="usercd_default">账户异常,请联系钱方</string>
+    <string name="no_bonded_device">您还未绑定QPOS3.0刷卡器</string>
+    <string name="easy_register_user_reminder">您当前未拥有QPOS\n若已申请上门服务,请耐心等待</string>
+    <string name="connect_reader">请连接QPOS</string>
+    <string name="easy_register_user_tip">您还没有QPOS</string>
+
+    <!-- RepealOrderActivity -->
+    <string name="text_repeal">撤销</string>
+    <string name="text_swipe_repeal">刷卡撤销</string>
+    <string name="text_wait_payment">未支付订单不允许撤销\n</string>
+
+    <string name="text_order_status">订单状态：</string>
+    <string name="text_order_code">订单状态码：</string>
+    <string name="text_order_paying">有用户正在支付该笔订单</string>
+    <string name="text_order_payed">该订单已经支付成功</string>
+    <string name="text_order_closed">该订单已关闭</string>
+    <string name="text_order_expired">该订单已过期</string>
+    <string name="text_order_repealed">该订单已撤销</string>
+
+
 
     <!-- ErrorInfo -->
     <string name="error_qpos_error">刷卡器错误，请稍后再试！</string>

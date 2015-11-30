@@ -1,11 +1,8 @@
 package com.example.qianfangdemo.base;
 
-import com.qfpay.sdk.base.ConstValue;
-
-
 public enum Env {
-	
-	WORK("WORK", ConstValue.api), SANDBOX("SANDBOX", ConstValue.sandbox);
+
+	WORK("WORK", EnvConfig.api), SANDBOX("SANDBOX", EnvConfig.sandbox);
 
 	private String envName;
 	private String envUrl;

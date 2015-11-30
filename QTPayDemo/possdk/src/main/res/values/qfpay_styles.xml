@@ -47,4 +47,11 @@
         <!--<item name="android:indeterminateDrawable">@drawable/qfpay_progress_drawables</item>-->
         <item name="android:maxHeight">8dip</item>
     </style>
+
+    <style name="mStyle" parent="android:Widget" />
+    <style name="mStyle.reg_content_title">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/reg_tv_textsize</item>
+        <item name="android:textColor">@color/qfpay_content_title</item>
+    </style>
 </resources>

@@ -1,8 +1,5 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.List;
-
-import qfpay.wxshop.R;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,10 +13,14 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.qianfangdemo.Utils.T;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.EnvConfig;
 import com.qfpay.sdk.common.QTEnviroment;
-import com.qfpay.sdk.utils.T;
+
+import java.util.List;
+
+import qfpay.wxshop.R;
 
 public class SetConfigActivity extends BaseActivity implements OnItemClickListener {
 

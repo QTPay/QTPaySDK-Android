@@ -137,8 +137,7 @@
 -dontoptimize
 
 
--keep class com.lidroid.xutils.** { *; }
--dontwarn com.lidroid.xutils.**
+
 -keepclasseswithmembers class *{
     public *;
 }

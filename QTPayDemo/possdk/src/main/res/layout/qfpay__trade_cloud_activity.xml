@@ -2,203 +2,177 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/transparent"
-    android:gravity="center"
-    android:orientation="vertical" >
+    android:background="@color/qfpay_bg"
+    android:orientation="vertical">
 
-    <LinearLayout 
+
+    <RelativeLayout
         android:layout_width="match_parent"
-    	android:layout_height="match_parent"
-    	android:background="@color/qfpay_bg"
-    	android:orientation="vertical"
-        >
-        <RelativeLayout
-	        android:layout_width="match_parent"
-	    	android:layout_height="@dimen/reg_title_height"
-	    	android:gravity="center"
-	    	android:background="@color/qfpay_blue"
-	        >
+        android:layout_height="@dimen/reg_title_height"
+        android:background="@color/qfpay_blue"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_tc_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/qfpay_back_selector"
+            android:drawableLeft="@drawable/qfpay_back_icon"
+            android:drawablePadding="@dimen/title_drawable_padding"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/public_title_padding"
+            android:paddingRight="@dimen/public_title_padding"
+            android:text="@string/cancel"
+            android:textColor="@color/qfpay_white"
+            android:textSize="@dimen/qfpay_medium" />
+
+        <TextView
+            android:id="@+id/qfpay_cloud_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/text_collection"
+            android:textColor="@color/qfpay_white"
+            android:textSize="@dimen/qfpay_large" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_tc_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center"
+        android:text="@string/text_loading"
+        android:textColor="@color/qfpay_text_black"
+        android:textSize="@dimen/qfpay_medium"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_tc_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical"
+        android:textColor="@color/qfpay_text_black"
+        android:textSize="@dimen/qfpay_small_medium">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/qfpay_bg"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="5dip">
 
             <TextView
-                android:id="@+id/btn_tc_cancel"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:paddingLeft="@dimen/public_title_padding"
-                android:drawableLeft="@drawable/qfpay_back_icon"
-                android:paddingRight="@dimen/public_title_padding"
-                android:drawablePadding="@dimen/title_drawable_padding"
-                android:textColor="@color/qfpay_white"
-                android:text="@string/cancel"
-                android:background="@drawable/qfpay_back_selector"
-                android:textSize="@dimen/qfpay_medium" />
-
-            <TextView
+                android:id="@+id/tv_goodsname"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center"
-				android:textColor="@color/qfpay_white"
-                android:text="@string/text_collection"
-                android:textSize="@dimen/qfpay_large"/>
-        
-	    </RelativeLayout>
-	    <LinearLayout 
-	        android:layout_width="match_parent"
-	    	android:layout_height="wrap_content"
-	    	android:gravity="center"
-	    	android:orientation="vertical"
-	        >
-	        <TextView
-	            android:id="@+id/tv_tc_info"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dip"
                 android:layout_marginRight="20dip"
-                android:gravity="center"
-                android:text="@string/text_loading"
-                android:textColor="@color/qfpay_text_black"
-                android:textSize="@dimen/qfpay_medium"
-                android:visibility="gone"/>
-	        
-	        <LinearLayout 
-	            android:id="@+id/ll_tc_data"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:layout_marginTop="5dip"
-                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:text=""
                 android:textColor="@color/qfpay_text_black"
-                android:textSize="@dimen/qfpay_small_medium"
-                >
-                
-	            <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dip"
-                    android:paddingBottom="10dip"
-                    android:paddingTop="5dip"
-                    android:background="@color/qfpay_bg"
-                    android:orientation="vertical"
-                    >
-	                <TextView
-			            android:id="@+id/tv_goodsname"
-		                android:layout_width="match_parent"
-		                android:layout_height="wrap_content"
-		                android:layout_marginLeft="20dip"
-		                android:layout_marginRight="20dip"
-		                android:layout_marginTop="5dip"
-		                android:gravity="center_horizontal"
-		                android:text=""
-		                android:textColor="@color/qfpay_text_black"
-		                android:textSize="@dimen/qfpay_small_medium"/>
-	                <TextView
-			            android:id="@+id/tv_goodsamt"
-		                android:layout_width="match_parent"
-		                android:layout_height="wrap_content"
-		                android:layout_marginLeft="20dip"
-		                android:layout_marginRight="20dip"
-		                android:layout_marginTop="10dip"
-		                android:gravity="center_horizontal"
-		                android:text=""
-		                android:textColor="@color/qfpay_text_black"
-		                android:textSize="@dimen/qfpay_huge"/>
-                </LinearLayout>
-                
-                <LinearLayout 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dip"
-                    android:paddingBottom="10dip"
-                    android:paddingTop="10dip"
-                    android:background="@color/qfpay_white_bg"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    >
-                    
-                    <LinearLayout 
-                        android:layout_width="match_parent"
-                    	android:layout_height="wrap_content"
-                    	android:orientation="horizontal"
-                        >
-                        
-                        <TextView
-			                android:layout_width="wrap_content"
-			                android:layout_height="wrap_content"
-			                android:layout_marginLeft="15dip"
-			                android:text="收款方"
-			                android:textColor="@color/qfpay_text_black"
-			                android:textSize="@dimen/qfpay_small"/>
-                        
-                        <TextView
-				            android:id="@+id/tv_merchant"
-			                android:layout_width="match_parent"
-			                android:layout_height="wrap_content"
-			                android:layout_marginRight="20dip"
-			                android:layout_marginBottom="10dip"
-			                android:gravity="right"
-			                android:text=""
-			                android:textColor="@color/qfpay_text_black"
-			                android:textSize="@dimen/qfpay_small"/>
-                        
-                    </LinearLayout>
-                    
-                    <LinearLayout 
-                        android:layout_width="match_parent"
-                    	android:layout_height="wrap_content"
-                    	android:orientation="horizontal"
-                    	android:layout_marginBottom="3dip"
-                    	android:gravity="center_vertical"
-                        >
-                        
-                        <TextView
-			                android:layout_width="wrap_content"
-			                android:layout_height="wrap_content"
-			                android:layout_marginLeft="15dip"
-			                android:layout_marginTop="5dip"
-			                android:text="订单号"
-			                android:textColor="@color/qfpay_text_black"
-			                android:textSize="@dimen/qfpay_small"/>
-                        
-                        <TextView
-				            android:id="@+id/tv_orderno"
-			                android:layout_width="match_parent"
-			                android:layout_height="wrap_content"
-			                android:layout_marginRight="20dip"
-			                android:layout_marginTop="5dip"
-			                android:gravity="right"
-			                android:text=""
-			                android:textColor="@color/qfpay_text_black"
-			                android:textSize="@dimen/qfpay_small"/>
-                    </LinearLayout>    
-                    
-                </LinearLayout>
-	            
-	        </LinearLayout>
-	        
-	    </LinearLayout>
-	    <LinearLayout 
-	        android:layout_width="match_parent"
-	    	android:layout_height="wrap_content"
-	    	android:gravity="center"
-	    	android:orientation="horizontal"
-	        >
-	        
-	        <TextView
-	            android:layout_margin="15dp"
-	            android:id="@+id/btn_tc_swip"
-	            android:layout_width="match_parent"
-	            android:layout_height="45dip"
-	            android:gravity="center"
-                android:textSize="@dimen/qfpay_small_medium"
-	            android:background="@drawable/qfpay_trade_cloud_selsetor"
-	            android:textColor="@color/qfpay_white"
-	            android:text="@string/text_swiping_card_pay"/>
-	       
-	        
-	    </LinearLayout>
+                android:textSize="@dimen/qfpay_small_medium" />
 
+            <TextView
+                android:id="@+id/tv_goodsamt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/qfpay_text_black"
+                android:textSize="@dimen/qfpay_huge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/qfpay_white_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="@string/text_receiving"
+                    android:textColor="@color/qfpay_text_black"
+                    android:textSize="@dimen/qfpay_small" />
+
+                <TextView
+                    android:id="@+id/tv_merchant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginRight="20dip"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="@color/qfpay_text_black"
+                    android:textSize="@dimen/qfpay_small" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="5dip"
+                    android:text="@string/text_orderno"
+                    android:textColor="@color/qfpay_text_black"
+                    android:textSize="@dimen/qfpay_small" />
+
+                <TextView
+                    android:id="@+id/tv_orderno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="5dip"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="@color/qfpay_text_black"
+                    android:textSize="@dimen/qfpay_small" />
+            </LinearLayout>
+
+
+        </LinearLayout>
 
     </LinearLayout>
-    
+
+
+    <TextView
+        android:id="@+id/btn_tc_swip"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_margin="15dp"
+        android:background="@drawable/qfpay_trade_cloud_selsetor"
+        android:gravity="center"
+        android:text="@string/text_swiping_card_pay"
+        android:textColor="@color/qfpay_white"
+        android:textSize="@dimen/qfpay_small_medium" />
+
 
 </LinearLayout>

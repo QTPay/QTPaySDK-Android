@@ -113,6 +113,10 @@
             android:theme="@style/QFBaseTheme"
             android:windowSoftInputMode="adjustPan" />
 
+        <activity
+            android:name="com.qfpay.qpossdk.activity.RepealOrderActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/QFBaseTheme"/>
 
     </application>
 

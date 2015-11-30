@@ -22,10 +22,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.qianfangdemo.Utils.T;
 import com.example.qianfangdemo.base.App;
 import com.example.qianfangdemo.base.EnvConfig;
 import com.example.qianfangdemo.base.UserConfig;
-import com.qfpay.sdk.utils.T;
 
 import java.util.List;
 

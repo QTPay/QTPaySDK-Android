@@ -1,6 +1,9 @@
 package com.example.qianfangdemo.activity;
 
-import java.util.Map;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import com.example.qianfangdemo.Utils.CacheData;
 import com.example.qianfangdemo.Utils.Toaster;
@@ -8,12 +11,8 @@ import com.example.qianfangdemo.Utils.Utils;
 import com.qfpay.sdk.common.QTCallBack;
 import com.qfpay.sdk.common.QTConst;
 import com.qfpay.sdk.entity.CustomerInfo;
-
+import java.util.Map;
 import qfpay.wxshop.R;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
 public class MyAccountActivity extends BaseActivity implements View.OnClickListener{
 

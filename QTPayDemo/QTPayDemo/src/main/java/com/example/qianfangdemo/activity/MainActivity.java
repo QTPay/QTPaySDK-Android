@@ -161,7 +161,7 @@ public class MainActivity extends BaseActivity {
 	private void jumpToCashier(String amt) {
 		Intent intent = new Intent(MainActivity.this, HomeActivity.class);
 		intent.putExtra(QTConst.EXTRO, new QTHolder(QTConst.ServerType_PAY, Integer.valueOf(amt), goods, extraInfo,
-				ConstValue.mobile));
+				ConstValue.mobile , "test"));
 		startActivity(intent);
 	}
 

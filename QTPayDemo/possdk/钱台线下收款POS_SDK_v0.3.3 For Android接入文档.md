@@ -176,6 +176,11 @@ compile 'com.android.support:appcompat-v7:22.2.0'
             android:screenOrientation="landscape"
             android:theme="@style/QFBaseTheme"
             android:windowSoftInputMode="adjustPan" />
+        <!-- V0.3.3新增，刷卡撤销 -->
+        <activity
+            android:name="com.qfpay.qpossdk.activity.RepealOrderActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/QFBaseTheme"/>
      </application>
 
 ###App 打包混淆###
@@ -195,11 +200,10 @@ compile 'com.android.support:appcompat-v7:22.2.0'
 ```
 
         
-3.SDK调用步骤
+3.支付功能调用步骤
 ---------
- 1、参数说明    
+ 1、参数说明     
         
-
 |字段名          | 字段类型       | 字段含义|
 |-------------|-------------|-----------|
 |createUserId|String|支付订单创建者id，对应下单接口返回的create_userid字段（必填）|
@@ -238,26 +242,99 @@ QfPaySdk.getInstance().payOrder(GoodsListActivity.this, orderInfo, payCallBack);
 QfPayCallBack payCallBack = new QfPayCallBack() {
 	@Override
 	public void onPayResultFail() {
-		Log.w(TAG, "========================交易失败");
+		Log.w(TAG, "============交易失败============");
 		queryOrder();
 	}
 
 	@Override
 	public void onPayResultSuccess() {
-		Log.w(TAG, "========================交易成功");
+		Log.w(TAG, "=============交易成功===========");
 		queryOrder();
 	}
 
 	@Override
 	public void onPayResultCancel() {
-		Log.w(TAG, "========================交易取消");
+		Log.w(TAG, "============交易取消============");
 		queryOrder();
 	}
 	
 	@Override
 	public void onPayResultUnknow() {
-		Log.w(TAG, "========================交易结果未知");
+		Log.w(TAG, "============交易结果未知============");
 		queryOrder();
+	}
+};
+
+```
+
+##2015-11-30 更新 v0.3.3##
+###更新日志:###
+1、增加刷卡撤销功能。
+
+2、修复bug。
+
+###撤销功能调用步骤:###
+
+ 1、参数说明  
+
+|字段名          | 字段类型       | 字段含义|
+|-------------|-------------|-----------|
+|createUserId|String|订单创建者id，对应创建撤销订单接口返回的create_userid字段（必填）|
+|orderId|String|撤销订单id，对应创建撤销订单接口返回的order_id字段（必填）|
+|orderNo|String|对应创建撤销订单接口返回的orderno字段（必填）|
+|origOrderNo|String|对应创建撤销订单接口返回的orig_orderno字段（必填）|
+|qfToken|String|用户订单token，对应创建撤销订单接口返回的qf_token字段（必填）|
+|token|String|钱台交易云用户登录返回的token字段（必填）|
+
+2、创建撤销订单信息
+
+```
+// 组装PayOrderInfo对象
+RepealOrderInfo repealOrderInfo = new RepealOrderInfo();
+repealOrderInfo.createUserId = create_userid;
+repealOrderInfo.orderId = order_id;
+repealOrderInfo.orderNo = orderno;
+repealOrderInfo.origOrderNo = orig_orderno;
+repealOrderInfo.qfToken = qf_token;
+repealOrderInfo.token = token;
+```
+3、调用SDK进行撤销
+
+```
+// 调用sdk进行撤销
+QfPaySdk.getInstance().repealOrder(GoodsListActivity.this, repealOrderInfo, repealCallBack);
+```
+
+4、撤销结果获取和处理
+
+```
+ /**
+  * 实际交易结果以服务端返回结果为准
+  * 撤销成功时，queryOrder返回refund 为2
+  */
+QfPayCallBack repealCallBack = new QfPayCallBack() {
+	@Override
+	public void onPayResultFail() {
+		Log.w(TAG, "============撤销失败============");
+		queryReapealOrder();
+	}
+
+	@Override
+	public void onPayResultSuccess() {
+		Log.w(TAG, "=============撤销成功===========");
+		queryReapealOrder();
+	}
+
+	@Override
+	public void onPayResultCancel() {
+		Log.w(TAG, "============取消撤销============");
+		queryReapealOrder();
+	}
+	
+	@Override
+	public void onPayResultUnknow() {
+		Log.w(TAG, "============撤销结果未知============");
+		queryReapealOrder();
 	}
 };
 
