@@ -112,7 +112,7 @@
             android:screenOrientation="landscape"
             android:theme="@style/QFBaseTheme"
             android:windowSoftInputMode="adjustPan" />
-
+        <!-- V0.3.3新增，刷卡撤销 -->
         <activity
             android:name="com.qfpay.qpossdk.activity.RepealOrderActivity"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"
