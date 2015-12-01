@@ -139,7 +139,7 @@
     <string name="text_swiping_card_pay">刷卡收款</string>
 
     <!-- QfTradeCloudActivity文案 -->
-    <string name="text_collection">收款</string>r
+    <string name="text_collection">收款</string>
     <string name="text_swiping_card">刷卡</string>
     <string name="text_loading">正在连接服务器...</string>
     <string name="text_receiving">收款方</string>
